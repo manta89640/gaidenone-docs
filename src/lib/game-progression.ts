@@ -23,20 +23,20 @@ export const GAME_PROGRESSION: ProgressionStep[] = [
   { type: 'landmark', label: 'Farmer Field', description: 'Pulps berry farm where the journey begins.' },
   { type: 'route', label: 'Jam Key Map', routeKeys: ['Jam Key Map'], description: 'Your starting area with the broken-down truck.' },
 
-  // -- Chapter 2: North Through Linking Tunnel --
-  { type: 'chapter', label: 'Chapter 2: Linking Tunnel & Tiyu Forest', description: 'Explore north through the tunnel to Tiyu Forest.' },
-  { type: 'route', label: 'Linking Tunnel', routeKeys: ['Linking Tunnel'], description: 'A tunnel north of Jam Key Map. Diglett block the path to Zhaoun Path (unlocked later).' },
-  { type: 'route', label: 'Tiyu Forest', routeKeys: ['Tiyu Forest'], description: 'A dense forest with bug catchers. Contains entrance to Color Ruins (Green).' },
-  { type: 'route', label: 'Color Ruins (Green)', routeKeys: ['Color Ruins Green 1F', 'Color Ruins Green B1F'], description: 'First Color Ruins, accessible from Tiyu Forest.' },
-
-  // -- Chapter 3: Cho Village & Oracle Quest --
-  { type: 'chapter', label: 'Chapter 3: Cho Village & Oracle Quest', description: 'Travel west to Cho Village and get the Oracle quest.' },
+  // -- Chapter 2: Cho Village & Oracle Quest --
+  { type: 'chapter', label: 'Chapter 2: Cho Village & Oracle Quest', description: 'Travel west to Cho Village and get the Oracle quest.' },
   { type: 'route', label: 'Shendown Path', routeKeys: ['Shendown Path'], description: 'West from Jam Key Map to Cho Village.' },
   { type: 'landmark', label: 'Cho Village', description: 'A quiet village where Pulp delivers berries and meets Log.' },
   { type: 'rival', label: 'Log - Cho Village', rivalLocation: 'Cho Village', description: 'First battle with childhood friend Log, a construction worker.' },
   { type: 'route', label: 'Wangyong Marsh', routeKeys: ['Wangyong Marsh'], description: 'North of Cho Village.' },
   { type: 'route', label: 'Kimyang Road', routeKeys: ['Kimyang Road'] },
   { type: 'landmark', label: 'Oracle Hill', description: 'The Oracle sends Pulp on a quest for the Relic Crown hidden in the Color Ruins.' },
+
+  // -- Chapter 3: Linking Tunnel & First Color Ruins --
+  { type: 'chapter', label: 'Chapter 3: Linking Tunnel & Tiyu Forest', description: 'Explore north through the tunnel to Tiyu Forest and the first Color Ruins.' },
+  { type: 'route', label: 'Linking Tunnel', routeKeys: ['Linking Tunnel'], description: 'A tunnel north of Jam Key Map. Diglett block the path to Zhaoun Path (unlocked later).' },
+  { type: 'route', label: 'Tiyu Forest', routeKeys: ['Tiyu Forest'], description: 'A dense forest with bug catchers. Contains entrance to Color Ruins (Green).' },
+  { type: 'route', label: 'Color Ruins (Green)', routeKeys: ['Color Ruins Green 1F', 'Color Ruins Green B1F'], description: 'First Color Ruins, accessible from Tiyu Forest.' },
 
   // -- Chapter 4: More Color Ruins --
   { type: 'chapter', label: 'Chapter 4: Yellow and Red Ruins', description: 'Explore the Yellow and Red Color Ruins.' },

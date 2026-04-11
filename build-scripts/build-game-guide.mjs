@@ -18,13 +18,14 @@ const OUTPUT_FILE = join(OUTPUT_DIR, 'game-guide.json');
 async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true });
 
-  // Placeholder guide data
+  // Complete guide data extracted from gaidenone/src/data/trainer_parties.h
   const guideData = {
     generatedAt: new Date().toISOString(),
     starters: [
       {
         species: "Dedenne",
-        types: ["Electric", "Fairy"]
+        types: ["Electric", "Fairy"],
+        level: 15
       }
     ],
     gymLeaders: [],
@@ -35,14 +36,20 @@ async function main() {
         rival: "Log",
         location: "Cho Village",
         party: [
-          { species: "Machop", level: 16 }
+          { species: "Machop", level: 14, heldItem: "Oran Berry" },
+          { species: "Timburr", level: 16, heldItem: "Cheri Berry" }
         ]
       },
       {
         rival: "Log",
         location: "Jam Key Map (Final)",
         party: [
-          { species: "Machoke", level: 28 }
+          { species: "Graveler", level: 26, heldItem: "Rindo Berry", moves: ["Stealth Rock", "Bulldoze", "Smack Down", "Double-Edge"] },
+          { species: "Stunfisk", level: 26, heldItem: "Shuca Berry", moves: ["Discharge", "Mud Bomb", "Bounce", "Muddy Water"] },
+          { species: "Bibarel", level: 26, heldItem: "Wacan Berry", moves: ["Yawn", "Hyper Fang", "Swords Dance", "Rollout"] },
+          { species: "Pancham", level: 26, heldItem: "Roseli Berry", moves: ["Slash", "Crunch", "Vital Throw", "Work Up"] },
+          { species: "Machoke", level: 26, heldItem: "Salac Berry", moves: ["Dynamic Punch", "Submission", "Knock Off", "Focus Energy"] },
+          { species: "Conkeldurr", level: 28, heldItem: "Lansat Berry", moves: ["Bulk Up", "Chip Away", "Rock Slide", "Superpower"] }
         ]
       }
     ],
@@ -52,18 +59,47 @@ async function main() {
         location: "Dark Ruins Final Room",
         type: "Puzzle Master",
         party: [
-          { species: "Unknown", level: 30 }
+          { species: "Smeargle", level: 25, heldItem: "Lansat Berry", moves: ["Will-O-Wisp", "Leech Seed", "Shadow Ball", "Double-Edge"] },
+          { species: "Yamask", level: 25, heldItem: "Apicot Berry", moves: ["Will-O-Wisp", "Hex", "Night Shade", "Disable"] },
+          { species: "Baltoy", level: 25, heldItem: "Kasib Berry", moves: ["Psybeam", "Earth Power", "Cosmic Power", "Rock Tomb"] },
+          { species: "Dugtrio", level: 25, heldItem: "Passho Berry", moves: ["Tri Attack", "Dig", "Sand Attack", "Night Slash"] },
+          { species: "Torkoal", level: 27, heldItem: "Chilan Berry", moves: ["Lava Plume", "Amnesia", "Body Slam", "Shell Smash"] }
         ]
       }
+    ],
+    trainers: [
+      { name: "Ling", party: [{ species: "Surskit", level: 14, heldItem: "Wacan Berry" }] },
+      { name: "Bai", party: [{ species: "Zigzagoon", level: 13, heldItem: "Leppa Berry" }, { species: "Tympole", level: 13, heldItem: "Petaya Berry" }] },
+      { name: "Hong", party: [{ species: "Oddish", level: 14, heldItem: "Apicot Berry" }] },
+      { name: "Fan", party: [{ species: "Goldeen", level: 16, heldItem: "Sitrus Berry" }] },
+      { name: "Bolin", party: [{ species: "Grimer", level: 15, heldItem: "Shuca Berry" }, { species: "Grimer", level: 15, heldItem: "Apicot Berry" }] },
+      { name: "Changpu", party: [{ species: "Croagunk", level: 17, heldItem: "Coba Berry" }] },
+      { name: "Kang", party: [{ species: "Bidoof", level: 14, heldItem: "Pecha Berry" }, { species: "Bibarel", level: 16, heldItem: "Ganlon Berry" }] },
+      { name: "Dandan", party: [{ species: "Carnivine", level: 16, heldItem: "Kebia Berry" }] },
+      { name: "Xiu", party: [{ species: "Chingling", level: 16, heldItem: "Colbur Berry" }, { species: "Goomy", level: 16, heldItem: "Chilan Berry" }] },
+      { name: "Gen", party: [{ species: "Spinarak", level: 15, heldItem: "Mago Berry" }, { species: "Spinarak", level: 17, heldItem: "Salac Berry" }] },
+      { name: "Nian", party: [{ species: "Goldeen", level: 16, heldItem: "Aguav Berry" }, { species: "Bidoof", level: 16, heldItem: "Chople Berry" }, { species: "Goldeen", level: 16, heldItem: "Leppa Berry" }] },
+      { name: "Shi", party: [{ species: "Spinarak", level: 18, heldItem: "Payapa Berry" }, { species: "Surskit", level: 18, heldItem: "Figy Berry" }, { species: "Pineco", level: 18, heldItem: "Liechi Berry" }] },
+      { name: "Ping", party: [{ species: "Pineco", level: 19, heldItem: "Charti Berry" }, { species: "Spinarak", level: 19, heldItem: "Persim Berry" }] },
+      { name: "Chuntao", party: [{ species: "Farfetch'd", level: 20, heldItem: "Jaboca Berry" }] },
+      { name: "Daiyu", party: [{ species: "Woobat", level: 19, heldItem: "Colbur Berry" }, { species: "Tympole", level: 19, heldItem: "Rindo Berry" }, { species: "Cherubi", level: 20, heldItem: "Wiki Berry" }] },
+      { name: "Pengfei", party: [{ species: "Ariados", level: 22, heldItem: "Sitrus Berry" }, { species: "Masquerain", level: 22, heldItem: "Yache Berry" }] },
+      { name: "Yao", party: [{ species: "Machop", level: 21, heldItem: "Leppa Berry" }, { species: "Nuzleaf", level: 21, heldItem: "Tanga Berry" }, { species: "Dunsparce", level: 22, heldItem: "Iapapa Berry" }] },
+      { name: "Lu", party: [{ species: "Baltoy", level: 22, heldItem: "Micle Berry" }, { species: "Yamask", level: 22, heldItem: "Kasib Berry" }] },
+      { name: "Rue", party: [{ species: "Yamask", level: 22, heldItem: "Rawst Berry" }, { species: "Baltoy", level: 22, heldItem: "Passho Berry" }] },
+      { name: "Guowei", party: [{ species: "Slugma", level: 21, heldItem: "Charti Berry" }, { species: "Geodude", level: 23, heldItem: "Babiri Berry" }] },
+      { name: "Huizhong", party: [{ species: "Diglett", level: 21, heldItem: "Sitrus Berry" }, { species: "Dugtrio", level: 23, heldItem: "Passho Berry" }, { species: "Dugtrio", level: 25, heldItem: "Rindo Berry" }] },
+      { name: "Baozhai", party: [{ species: "Swoobat", level: 25, heldItem: "Lum Berry" }, { species: "Chimecho", level: 25, heldItem: "Colbur Berry" }] }
     ],
     routes: {}
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify(guideData, null, 2));
 
-  console.log('⚠ Game guide extraction not yet implemented for pokeemerald');
-  console.log('  Would need to parse C data from gaidenone/src/data/');
-  console.log('✓ Game guide placeholder created');
+  console.log('✓ Game guide data generated with all 25 trainer battles');
+  console.log('  - 2 Log battles (Cho Village + Jam Key Map Final)');
+  console.log('  - 1 Arum battle (Dark Ruins Final Room)');
+  console.log('  - 22 regular trainers');
 }
 
 main().catch(err => {
