@@ -81,8 +81,8 @@ function computeStats(data: GuideData) {
   return {
     totalRoutes: Object.keys(data.routes).length,
     totalSpecies: allSpecies.size,
-    trainers: data.gymLeaders.length + data.eliteFour.length + (data.champion ? 1 : 0) + (data.bossFights?.length || 0),
-    levelRange: `Lv ${minLevel}\u2013${maxLevel}`,
+    trainers: data.gymLeaders.length + data.eliteFour.length + (data.champion ? 1 : 0) + (data.bossFights?.length || 0) + data.rivals.length + (data.trainers?.length || 0),
+    levelRange: minLevel === 999 ? 'N/A' : `Lv ${minLevel}\u2013${maxLevel}`,
   };
 }
 
@@ -458,6 +458,29 @@ export default function GuidePage() {
       {searchQuery && filteredSteps.length === 0 && (
         <div className="info-card">
           <p>No locations or trainers match &ldquo;{searchQuery}&rdquo;.</p>
+        </div>
+      )}
+
+      {/* Regular Trainers Section */}
+      {data.trainers && data.trainers.length > 0 && !searchQuery && (
+        <div className="guide-section">
+          <div className="progression-chapter">
+            <h2 className="progression-chapter-title">All Trainers</h2>
+            <p className="progression-chapter-desc">
+              Complete list of all {data.trainers.length} regular trainers in Pocket Gaiden 1.
+            </p>
+          </div>
+          <div className="trainers-grid">
+            {data.trainers.map((trainer, i) => (
+              <TrainerCard
+                key={i}
+                title={trainer.name}
+                subtitle={`${trainer.party.length} Pokémon`}
+                typeBadge="Trainer"
+                party={trainer.party}
+              />
+            ))}
+          </div>
         </div>
       )}
     </section>

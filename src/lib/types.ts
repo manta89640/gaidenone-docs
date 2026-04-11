@@ -90,6 +90,11 @@ export interface BossFight {
   party: PartyMember[];
 }
 
+export interface Trainer {
+  name: string;
+  party: PartyMember[];
+}
+
 export interface GuideData {
   starters: StarterEntry[];
   gymLeaders: GymLeader[];
@@ -97,6 +102,7 @@ export interface GuideData {
   champion: Champion | null;
   rivals: RivalBattle[];
   bossFights: BossFight[];
+  trainers?: Trainer[];
   routes: Record<string, RouteData>;
 }
 

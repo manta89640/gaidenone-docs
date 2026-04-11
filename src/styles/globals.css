@@ -844,6 +844,13 @@ body::after {
   margin-top: 12px;
 }
 
+.trainers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
 .starter-card {
   background: rgba(0, 0, 0, 0.25);
   border: 1px solid var(--lab-panel-border);

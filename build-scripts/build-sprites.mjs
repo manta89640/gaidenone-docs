@@ -15,7 +15,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DOCS_DIR = join(__dirname, '..');
 const OUTPUT_DIR = join(DOCS_DIR, 'public', 'sprites');
 const POKEAPI_BASE = 'https://pokeapi.co/api/v2/pokemon';
-const MAX_POKEMON = 386;
+const SPECIES_BASE = 'https://pokeapi.co/api/v2/pokemon-species';
 const CONCURRENCY = 10;
 
 async function fetchJson(url) {
@@ -24,6 +24,14 @@ async function fetchJson(url) {
     throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
   }
   return response.json();
+}
+
+async function fetchSpeciesCount() {
+  const data = await fetchJson(`${SPECIES_BASE}?limit=0`);
+  if (typeof data.count !== 'number') {
+    throw new Error('Unable to determine Pokemon species count from PokeAPI');
+  }
+  return data.count;
 }
 
 async function fetchSpriteUrl(dexId) {
@@ -47,9 +55,10 @@ async function downloadSprite(dexId) {
 
 async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true });
-  console.log(`Downloading ${MAX_POKEMON} sprites from PokeAPI into ${OUTPUT_DIR}...`);
+  const speciesCount = await fetchSpeciesCount();
+  console.log(`Downloading ${speciesCount} Pokémon sprites from PokeAPI into ${OUTPUT_DIR}...`);
 
-  const ids = Array.from({ length: MAX_POKEMON }, (_, index) => index + 1);
+  const ids = Array.from({ length: speciesCount }, (_, index) => index + 1);
 
   for (let i = 0; i < ids.length; i += CONCURRENCY) {
     const batch = ids.slice(i, i + CONCURRENCY);
