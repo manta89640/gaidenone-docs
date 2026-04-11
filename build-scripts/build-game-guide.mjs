@@ -6,7 +6,7 @@
  * Data is in: gaidenone/src/data/trainers.h, src/data/trainer_parties.h
  */
 
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -14,9 +14,98 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DOCS_DIR = join(__dirname, '..');
 const OUTPUT_DIR = join(DOCS_DIR, 'public', 'data');
 const OUTPUT_FILE = join(OUTPUT_DIR, 'game-guide.json');
+const GAIDENONE_DIR = join(DOCS_DIR, '..', 'gaidenone');
+const ENCOUNTERS_FILE = join(GAIDENONE_DIR, 'src', 'data', 'wild_encounters.json');
+
+// Extract encounters for a specific map from wild encounters JSON
+function extractEncountersForMap(encountersData, mapName) {
+  const encounters = encountersData.wild_encounter_groups[0].encounters.filter(e => e.map === mapName);
+  if (encounters.length === 0) return null;
+
+  const routes = {};
+
+  for (const enc of encounters) {
+    const routeData = {};
+
+    // Process land encounters
+    if (enc.land_mons) {
+      routeData.land = enc.land_mons.mons.map(m => ({
+        species: m.species.replace('SPECIES_', '').toLowerCase().replace(/^(.)/, c => c.toUpperCase()),
+        minLevel: m.min_level,
+        maxLevel: m.max_level,
+        rate: 0  // Rate calculation would require more complex logic
+      }));
+    }
+
+    // Process water encounters
+    if (enc.water_mons) {
+      routeData.water = enc.water_mons.mons.map(m => ({
+        species: m.species.replace('SPECIES_', '').toLowerCase().replace(/^(.)/, c => c.toUpperCase()),
+        minLevel: m.min_level,
+        maxLevel: m.max_level,
+        rate: 0
+      }));
+    }
+
+    // Process fishing encounters
+    if (enc.fishing_mons) {
+      routeData.fishing = {
+        oldRod: enc.fishing_mons.mons.slice(0, 2).map(m => ({
+          species: m.species.replace('SPECIES_', '').toLowerCase().replace(/^(.)/, c => c.toUpperCase()),
+          minLevel: m.min_level,
+          maxLevel: m.max_level,
+          rate: 0
+        })),
+        goodRod: enc.fishing_mons.mons.slice(2, 5).map(m => ({
+          species: m.species.replace('SPECIES_', '').toLowerCase().replace(/^(.)/, c => c.toUpperCase()),
+          minLevel: m.min_level,
+          maxLevel: m.max_level,
+          rate: 0
+        })),
+        superRod: enc.fishing_mons.mons.slice(5).map(m => ({
+          species: m.species.replace('SPECIES_', '').toLowerCase().replace(/^(.)/, c => c.toUpperCase()),
+          minLevel: m.min_level,
+          maxLevel: m.max_level,
+          rate: 0
+        }))
+      };
+    }
+
+    return routeData;
+  }
+
+  return null;
+}
 
 async function main() {
   await mkdir(OUTPUT_DIR, { recursive: true });
+
+  // Load wild encounters data
+  let encountersData = null;
+  let routes = {};
+  try {
+    const encountersJson = await readFile(ENCOUNTERS_FILE, 'utf-8');
+    encountersData = JSON.parse(encountersJson);
+
+    // Extract encounters for key routes
+    const mapNames = {
+      'Shendown Path': 'MAP_SHENDOWN_PATH',
+      'Wangyong Marsh': 'MAP_WANGYONG_MARSH',
+      'Kimyang Road': 'MAP_KIMYANG_ROAD',
+      'Tiyu Forest': 'MAP_TIYU_FOREST',
+      'Linking Tunnel': 'MAP_LINKING_TUNNEL',
+      'Zhaoun Path': 'MAP_ZHAOUN_PATH'
+    };
+
+    for (const [routeName, mapName] of Object.entries(mapNames)) {
+      const routeData = extractEncountersForMap(encountersData, mapName);
+      if (routeData) {
+        routes[routeName] = routeData;
+      }
+    }
+  } catch (err) {
+    console.warn('Could not load wild encounters:', err.message);
+  }
 
   // Complete guide data extracted from gaidenone/src/data/trainer_parties.h
   const guideData = {
@@ -91,15 +180,16 @@ async function main() {
       { name: "Huizhong", party: [{ species: "Diglett", level: 21, heldItem: "Sitrus Berry" }, { species: "Dugtrio", level: 23, heldItem: "Passho Berry" }, { species: "Dugtrio", level: 25, heldItem: "Rindo Berry" }] },
       { name: "Baozhai", party: [{ species: "Swoobat", level: 25, heldItem: "Lum Berry" }, { species: "Chimecho", level: 25, heldItem: "Colbur Berry" }] }
     ],
-    routes: {}
+    routes
   };
 
   await writeFile(OUTPUT_FILE, JSON.stringify(guideData, null, 2));
 
   console.log('✓ Game guide data generated with all 25 trainer battles');
-  console.log('  - 2 Log battles (Cho Village + Jam Key Map Final)');
+  console.log('  - 2 Log battles (Cho Village + Pulp Byroad Final)');
   console.log('  - 1 Arum battle (Dark Ruins Final Room)');
   console.log('  - 22 regular trainers');
+  console.log(`  - ${Object.keys(routes).length} routes with wild encounters`);
 }
 
 main().catch(err => {

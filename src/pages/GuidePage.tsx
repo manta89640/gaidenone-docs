@@ -269,6 +269,21 @@ function StepRenderer({
         </div>
       );
 
+    case 'trainer': {
+      if (!data.trainers || !step.trainerName) return null;
+      const trainer = data.trainers.find(t => t.name === step.trainerName);
+      if (!trainer) return null;
+
+      return (
+        <TrainerCard
+          title={trainer.name}
+          subtitle={step.description ?? `${trainer.party.length} Pokémon`}
+          typeBadge="Trainer"
+          party={trainer.party}
+        />
+      );
+    }
+
     default:
       return null;
   }
@@ -286,6 +301,7 @@ function stepTypeClass(type: ProgressionStep['type']): string {
     case 'boss': return 'step-boss';
     case 'landmark': return 'step-landmark';
     case 'chapter': return 'step-chapter';
+    case 'trainer': return 'step-trainer';
     default: return '';
   }
 }
@@ -458,29 +474,6 @@ export default function GuidePage() {
       {searchQuery && filteredSteps.length === 0 && (
         <div className="info-card">
           <p>No locations or trainers match &ldquo;{searchQuery}&rdquo;.</p>
-        </div>
-      )}
-
-      {/* Regular Trainers Section */}
-      {data.trainers && data.trainers.length > 0 && !searchQuery && (
-        <div className="guide-section">
-          <div className="progression-chapter">
-            <h2 className="progression-chapter-title">All Trainers</h2>
-            <p className="progression-chapter-desc">
-              Complete list of all {data.trainers.length} regular trainers in Pocket Gaiden 1.
-            </p>
-          </div>
-          <div className="trainers-grid">
-            {data.trainers.map((trainer, i) => (
-              <TrainerCard
-                key={i}
-                title={trainer.name}
-                subtitle={`${trainer.party.length} Pokémon`}
-                typeBadge="Trainer"
-                party={trainer.party}
-              />
-            ))}
-          </div>
         </div>
       )}
     </section>

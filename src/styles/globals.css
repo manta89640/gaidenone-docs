@@ -1571,6 +1571,10 @@ body::after {
   border-left-color: var(--blue-bright);
 }
 
+.progression-step.step-trainer {
+  border-left-color: #90caf9;
+}
+
 .progression-step.step-chapter {
   border-left: none;
   padding-left: 0;
