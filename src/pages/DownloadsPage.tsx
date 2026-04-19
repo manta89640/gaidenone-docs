@@ -70,14 +70,10 @@ export default function DownloadsPage() {
     <section className="downloads-view active">
       <div className="info-card">
         <h3>{'\uD83C\uDFAE'} How to Play</h3>
-        <p>Follow these steps to patch and play <strong>Project Oracle</strong>:</p>
+        <p>Follow these steps to patch and play <strong>Pocket Gaiden 1</strong>:</p>
         <ol className="patching-steps">
           <li>
-            <strong>Get the base ROM</strong> &mdash; You need a <strong>Pok&eacute;mon Crystal (U)</strong> ROM file.
-            <br />
-            <span className="text-muted">
-              SHA-1: <code>f4cd3c50c279ffc6eec2cfd751d4f6de3df8ef3d</code>
-            </span>
+            <strong>Get the base ROM</strong> &mdash; You need a <strong>Pok&eacute;mon Emerald (U)</strong> ROM file.
             <br />
             <span className="text-muted">We cannot provide ROM files. Please source your own legally.</span>
           </li>
@@ -92,8 +88,8 @@ export default function DownloadsPage() {
             to apply the <code>.ips</code> file to your base ROM.
           </li>
           <li>
-            <strong>Play!</strong> &mdash; Load the patched <code>.gbc</code> file in any GBC emulator
-            (BGB, Gambatte, mGBA, etc.) or flash cart.
+            <strong>Play!</strong> &mdash; Load the patched <code>.gba</code> file in any GBA emulator
+            (mGBA, VBA-M, etc.) or flash cart.
           </li>
         </ol>
       </div>
@@ -106,7 +102,7 @@ export default function DownloadsPage() {
         <div className="info-card">
           <p>
             No releases available yet. Check the{' '}
-            <a href="https://github.com/manta89640/agentelm/releases" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/manta89640/gaidenone/releases" target="_blank" rel="noopener noreferrer">
               GitHub releases page
             </a>{' '}
             for updates.

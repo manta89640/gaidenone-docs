@@ -13,14 +13,13 @@ export default function Layout({ children }: LayoutProps) {
       <Header />
       {children}
       <footer className="lab-footer">
-        Agent Elm Research Terminal &middot; Pok&eacute;mon Crystal ROM Hack &middot;{' '}
-        <a href="https://github.com/manta89640/agentelm" target="_blank" rel="noopener noreferrer">
+        Pocket Gaiden 1 &middot; Pok&eacute;mon ROM Hack by Mantager &middot;{' '}
+        <a href="https://github.com/manta89640/gaidenone" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
         <br />
         <small>
-          Sprites from <a href="https://github.com/pret/pokecrystal" target="_blank" rel="noopener noreferrer">pokecrystal</a>.
-          Based on <a href="https://github.com/alvarodms/agentoak" target="_blank" rel="noopener noreferrer">AgentOak</a> by alvarodms.
+          Sprites from <a href="https://github.com/pret/pokeemerald" target="_blank" rel="noopener noreferrer">pokeemerald</a>.
           Pok&eacute;mon is &copy; Nintendo/Creatures Inc./GAME FREAK Inc.
         </small>
       </footer>

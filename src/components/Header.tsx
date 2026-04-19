@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 const NAV_ITEMS = [
-  { href: '/', label: 'Research Logs' },
+  { href: '/', label: 'Smoothies' },
   { href: '/guide', label: 'Game Guide' },
   { href: '/pokedex', label: 'Pokedex' },
   { href: '/about', label: 'About' },
@@ -20,12 +20,8 @@ export default function Header() {
           <div className="bottom"></div>
         </div>
         <div className="header-title-block">
-          <h1>AGENT ELM &mdash; RESEARCH TERMINAL</h1>
-          <div className="subtitle">Pok&eacute;mon Crystal ROM Hack &middot; Autonomous Development Logs</div>
-        </div>
-        <div className="header-status">
-          <span className="status-led"></span>
-          SYSTEM ONLINE
+          <h1>POCKET GAIDEN 1</h1>
+          <div className="subtitle">Pok&eacute;mon ROM Hack by Mantager</div>
         </div>
       </div>
       <nav className="header-nav" aria-label="Main navigation">

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import JournalPage from './pages/JournalPage';
+import SmoothiePage from './pages/SmoothiePage';
 import GuidePage from './pages/GuidePage';
 import AboutPage from './pages/AboutPage';
 import DownloadsPage from './pages/DownloadsPage';
@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <HashRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<JournalPage />} />
+          <Route path="/" element={<SmoothiePage />} />
           <Route path="/guide" element={<GuidePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/downloads" element={<DownloadsPage />} />
