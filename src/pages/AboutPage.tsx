@@ -26,7 +26,7 @@ export default function AboutPage() {
           <li><strong>Wangyong Marsh</strong> &mdash; A marshy route with the Berry Blender inventor</li>
           <li><strong>Oracle Hill</strong> &mdash; Home of the Oracle who sends Pulp on his quest</li>
           <li><strong>Color Ruins</strong> &mdash; Four ancient ruins (Red, Green, Blue, Yellow) with puzzles</li>
-          <li><strong>Dark City</strong> &mdash; An underground civilization with the Dark Tournament arena</li>
+          <li><strong>Dark City</strong> &mdash; An underground civilization with the Dark Tourney arena</li>
           <li><strong>Xilong Walk</strong> &mdash; A route south of Farmer Field where Arum bids farewell</li>
           <li><strong>Honzhu City</strong> &mdash; The southern metropolis Pulp dreams of reaching</li>
         </ul>
@@ -37,7 +37,7 @@ export default function AboutPage() {
         <ul>
           <li><strong>Non-traditional starter</strong> &mdash; Dedenne (level 15), chosen for its Cheek Pouch synergy with the Berry/Smoothie system</li>
           <li><strong>Story-driven progression</strong> &mdash; No gyms or badges, progress by solving puzzles and exploring</li>
-          <li><strong>Dark Tournament</strong> &mdash; A 16-trainer 3v3 bracket tournament required to unlock the Dark Ruins</li>
+          <li><strong>Dark Tourney</strong> &mdash; A 16-trainer 3v3 bracket tournament required to unlock the Dark Ruins</li>
           <li><strong>Smoothie system</strong> &mdash; Blend Berries into Smoothies for HP recovery, stat boosts, and type shields in battle</li>
           <li><strong>Puzzle dungeons</strong> &mdash; Color Ruins and Dark Ruins challenge your problem-solving</li>
           <li><strong>73 Pok&eacute;mon</strong> &mdash; A curated roster with Berry-themed abilities (Harvest, Gluttony, Unnerve)</li>

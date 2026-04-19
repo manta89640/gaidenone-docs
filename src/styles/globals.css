@@ -7,37 +7,39 @@
 
 /* ---- CSS Variables ---- */
 :root {
-  --lab-bg: #0b1622;
-  --lab-bg-lighter: #111f30;
-  --lab-panel: #142232;
-  --lab-panel-border: #1e3a52;
-  --lab-panel-glow: rgba(0, 200, 83, 0.08);
+  --lab-bg: #15120e;
+  --lab-bg-lighter: #1e1a14;
+  --lab-panel: #231f18;
+  --lab-panel-border: #3a3228;
+  --lab-panel-glow: rgba(212, 168, 82, 0.08);
 
-  --pokeball-red: #ee1515;
-  --pokeball-red-dark: #b71010;
-  --pokeball-white: #f0f0f0;
-  --pokeball-black: #222;
+  --pokeball-red: #c45a4a;
+  --pokeball-red-dark: #9e3a2e;
+  --pokeball-white: #e8dfd4;
+  --pokeball-black: #2a2420;
 
-  --text-primary: #e0e8f0;
-  --text-secondary: #8ba4bc;
-  --text-muted: #5a7a96;
-  --text-accent: #4fc3f7;
+  --text-primary: #e8dfd4;
+  --text-secondary: #a89878;
+  --text-muted: #706050;
+  --text-accent: #d4a852;
 
-  --green-bright: #00e676;
-  --green-dim: #00c853;
-  --green-dark: #1b5e20;
-  --green-glow: rgba(0, 230, 118, 0.15);
+  --green-bright: #7ab356;
+  --green-dim: #5e8a3e;
+  --green-dark: #2a3e1a;
+  --green-glow: rgba(122, 179, 86, 0.15);
 
-  --red-bright: #ff5252;
-  --red-glow: rgba(255, 82, 82, 0.15);
+  --red-bright: #d4685a;
+  --red-glow: rgba(212, 104, 90, 0.15);
 
-  --yellow-bright: #ffd740;
-  --blue-bright: #448aff;
-  --purple-bright: #b388ff;
-  --cyan-bright: #00e5ff;
-  --cyan-glow: rgba(0, 229, 255, 0.15);
-  --orange-bright: #ffab40;
-  --orange-glow: rgba(255, 171, 64, 0.15);
+  --yellow-bright: #d4a852;
+  --blue-bright: #6a9ec0;
+  --purple-bright: #a080c0;
+  --cyan-bright: #6abcb0;
+  --cyan-glow: rgba(106, 188, 176, 0.12);
+  --orange-bright: #d48a42;
+  --orange-glow: rgba(212, 138, 66, 0.12);
+
+  --bg-inset: rgba(0, 0, 0, 0.25);
 
   --font-pixel: 'Press Start 2P', monospace;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
@@ -48,8 +50,8 @@
   --radius-lg: 12px;
   --radius-xl: 16px;
 
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 0 20px rgba(0, 200, 83, 0.1);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(212, 168, 82, 0.08);
 
   --transition-fast: 0.15s ease;
   --transition-normal: 0.3s ease;
@@ -73,18 +75,12 @@ body {
   line-height: 1.6;
 }
 
-/* Scanline overlay */
+/* Subtle texture overlay */
 body::after {
   content: '';
   position: fixed;
   inset: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 0, 0, 0.03) 2px,
-    rgba(0, 0, 0, 0.03) 4px
-  );
+  background: url("data:image/svg+xml,%3Csvg width='4' height='4' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='1' height='1' fill='rgba(255,255,255,0.008)'/%3E%3C/svg%3E");
   pointer-events: none;
   z-index: 9999;
 }
@@ -99,9 +95,9 @@ body::after {
   position: fixed;
   inset: 0;
   background-image:
-    linear-gradient(rgba(0, 200, 83, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 200, 83, 0.03) 1px, transparent 1px);
-  background-size: 40px 40px;
+    linear-gradient(rgba(212, 168, 82, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 168, 82, 0.02) 1px, transparent 1px);
+  background-size: 48px 48px;
   z-index: 0;
   pointer-events: none;
 }
@@ -174,8 +170,8 @@ body::after {
 .header-title-block h1 {
   font-family: var(--font-pixel);
   font-size: 14px;
-  color: var(--green-bright);
-  text-shadow: 0 0 20px rgba(0, 230, 118, 0.5);
+  color: var(--text-accent);
+  text-shadow: 0 0 20px rgba(212, 168, 82, 0.4);
   letter-spacing: 2px;
   line-height: 1.8;
 }
@@ -245,8 +241,8 @@ body::after {
 
 .header-nav a.active,
 .header-nav button.active {
-  color: var(--green-bright);
-  border-bottom-color: var(--green-bright);
+  color: var(--text-accent);
+  border-bottom-color: var(--text-accent);
 }
 
 /* ---- Stats Banner ---- */
@@ -772,12 +768,12 @@ body::after {
   position: fixed;
   width: 2px;
   height: 2px;
-  background: var(--green-bright);
+  background: var(--text-accent);
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
   z-index: 1;
-  animation: float-particle 8s linear infinite;
+  animation: float-particle 10s linear infinite;
 }
 
 @keyframes float-particle {
@@ -808,9 +804,9 @@ body::after {
 .info-card h3 {
   font-family: var(--font-pixel);
   font-size: 11px;
-  color: var(--green-bright);
+  color: var(--text-accent);
   margin-bottom: 16px;
-  text-shadow: 0 0 10px rgba(0, 230, 118, 0.3);
+  text-shadow: 0 0 10px rgba(212, 168, 82, 0.25);
 }
 
 .info-card p, .info-card li {
@@ -834,7 +830,7 @@ body::after {
   content: '▸';
   position: absolute;
   left: 0;
-  color: var(--green-dim);
+  color: var(--text-accent);
 }
 
 .starter-grid {
@@ -882,7 +878,7 @@ body::after {
 .starter-card .pokemon-sprite {
   font-size: 48px;
   margin-bottom: 8px;
-  filter: drop-shadow(0 0 8px rgba(0, 200, 83, 0.2));
+  filter: drop-shadow(0 0 8px rgba(212, 168, 82, 0.15));
 }
 
 .starter-card .pokemon-identity {
@@ -895,7 +891,7 @@ body::after {
   width: 80px;
   height: 80px;
   image-rendering: pixelated;
-  filter: drop-shadow(0 0 10px rgba(0, 200, 83, 0.3));
+  filter: drop-shadow(0 0 10px rgba(212, 168, 82, 0.2));
   object-fit: cover;
   object-position: top;
 }
@@ -1018,9 +1014,8 @@ body::after {
 .guide-section-title {
   font-family: var(--font-pixel);
   font-size: 13px;
-  color: var(--green-bright);
+  color: var(--text-accent);
   margin-bottom: 16px;
-  text-shadow: 0 0 10px rgba(0, 230, 118, 0.3);
   border-bottom: 1px solid var(--lab-panel-border);
   padding-bottom: 8px;
 }
@@ -1305,7 +1300,7 @@ body::after {
   width: 160px;
   height: 160px;
   image-rendering: pixelated;
-  filter: drop-shadow(0 0 10px rgba(0, 200, 83, 0.3));
+  filter: drop-shadow(0 0 10px rgba(212, 168, 82, 0.2));
 }
 
 .party-table .mon-name {
@@ -1435,7 +1430,7 @@ body::after {
 .guide-stat-value {
   font-family: var(--font-pixel);
   font-size: 18px;
-  color: var(--green-bright);
+  color: var(--text-accent);
   margin-bottom: 4px;
 }
 
@@ -1740,9 +1735,8 @@ body::after {
 .section-heading {
   font-family: var(--font-pixel);
   font-size: 12px;
-  color: var(--green-bright);
+  color: var(--text-accent);
   margin-bottom: 20px;
-  text-shadow: 0 0 10px rgba(0, 230, 118, 0.3);
 }
 
 .patching-steps {
@@ -1921,15 +1915,15 @@ body::after {
   font-weight: 700;
   padding: 10px 20px;
   border-radius: var(--radius-md);
-  background: var(--green-bright);
+  background: var(--text-accent);
   color: var(--lab-bg);
   text-decoration: none;
   transition: box-shadow var(--transition-normal), background var(--transition-normal);
 }
 
 .download-btn:hover {
-  background: #2eff8e;
-  box-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
+  background: #e0b860;
+  box-shadow: 0 0 20px rgba(212, 168, 82, 0.3);
 }
 
 .download-btn-secondary {
@@ -1977,8 +1971,7 @@ body::after {
 .pokedex-header h2 {
   font-family: var(--font-pixel);
   font-size: 1.2rem;
-  color: var(--green-bright);
-  text-shadow: 0 0 10px var(--green-glow);
+  color: var(--text-accent);
 }
 .pokedex-count {
   font-family: var(--font-mono);
@@ -2007,8 +2000,8 @@ body::after {
   transition: border-color var(--transition-fast);
 }
 .pokedex-search:focus {
-  border-color: var(--green-bright);
-  box-shadow: 0 0 8px var(--green-glow);
+  border-color: var(--text-accent);
+  box-shadow: 0 0 8px rgba(212, 168, 82, 0.15);
 }
 .pokedex-search::placeholder { color: var(--text-muted); }
 
@@ -2056,8 +2049,8 @@ body::after {
   font-family: var(--font-ui);
 }
 .pokedex-card:hover {
-  border-color: var(--green-bright);
-  box-shadow: 0 0 16px var(--green-glow), var(--shadow-card);
+  border-color: var(--text-accent);
+  box-shadow: 0 0 16px rgba(212, 168, 82, 0.12), var(--shadow-card);
   transform: translateY(-2px);
 }
 
@@ -2148,7 +2141,7 @@ body::after {
 .pokedex-detail-name {
   font-family: var(--font-pixel);
   font-size: 1.1rem;
-  color: var(--green-bright);
+  color: var(--text-accent);
   margin: 0.25rem 0;
 }
 .pokedex-detail-category {
@@ -2186,7 +2179,7 @@ body::after {
 .pokedex-panel h3 {
   font-family: var(--font-pixel);
   font-size: 0.75rem;
-  color: var(--green-bright);
+  color: var(--text-accent);
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -2261,7 +2254,7 @@ body::after {
 .pokedex-section h3 {
   font-family: var(--font-pixel);
   font-size: 0.75rem;
-  color: var(--green-bright);
+  color: var(--text-accent);
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -2388,7 +2381,7 @@ body::after {
   border-bottom: 1px solid rgba(255,255,255,0.03);
 }
 .learnset-table tbody tr:hover {
-  background: rgba(0, 200, 83, 0.04);
+  background: rgba(212, 168, 82, 0.04);
 }
 .learnset-table .type-badge {
   font-size: 0.6rem;

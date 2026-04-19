@@ -62,12 +62,12 @@
   "bossFights": [
     {
       "name": "Wolfsbane",
-      "location": "Dark Tournament",
+      "location": "Dark Tourney (Final)",
       "type": "Dark Champion",
       "party": [
-        { "species": "Mawile", "level": 27, "heldItem": "Sitrus Berry" },
-        { "species": "Magcargo", "level": 26, "heldItem": "Charcoal" },
-        { "species": "Drampa", "level": 27, "heldItem": "Lum Berry" }
+        { "species": "Mawile", "level": 27, "heldItem": "Sitrus Berry", "moves": ["Iron Head", "Crunch", "Fake Out", "Sucker Punch"] },
+        { "species": "Magcargo", "level": 26, "heldItem": "White Herb", "moves": ["Flamethrower", "Ancient Power", "Earth Power", "Shell Smash"] },
+        { "species": "Drampa", "level": 27, "moves": ["Dragon Pulse", "Hyper Voice", "Flamethrower", "Glare"] }
       ]
     },
     {
@@ -363,6 +363,30 @@
       "party": [
         { "species": "Swoobat", "level": 26, "heldItem": "Lum Berry" },
         { "species": "Chimecho", "level": 26, "heldItem": "Colbur Berry" }
+      ]
+    },
+    {
+      "name": "Qingchang",
+      "party": [
+        { "species": "Oddish", "level": 22, "moves": ["Absorb", "Acid", "Sleep Powder", "Stun Spore"] },
+        { "species": "Geodude", "level": 22, "moves": ["Rock Throw", "Magnitude", "Mud Sport", "Defense Curl"] },
+        { "species": "Gloom", "level": 23, "moves": ["Mega Drain", "Acid", "Sleep Powder", "Stun Spore"] }
+      ]
+    },
+    {
+      "name": "Lingfeng",
+      "party": [
+        { "species": "Yamask", "level": 23, "moves": ["Shadow Ball", "Will-O-Wisp", "Hex", "Protect"] },
+        { "species": "Machop", "level": 23, "moves": ["Karate Chop", "Low Kick", "Knock Off", "Bulk Up"] },
+        { "species": "Woobat", "level": 24, "moves": ["Confusion", "Air Cutter", "Endeavor", "Heart Stamp"] }
+      ]
+    },
+    {
+      "name": "Yuxuan",
+      "party": [
+        { "species": "Parasect", "level": 24, "heldItem": "Sitrus Berry", "moves": ["Spore", "Giga Drain", "X-Scissor", "Leech Life"] },
+        { "species": "Baltoy", "level": 24, "moves": ["Psychic", "Earth Power", "Ancient Power", "Cosmic Power"] },
+        { "species": "Vileplume", "level": 25, "heldItem": "Persim Berry", "moves": ["Petal Dance", "Sludge Bomb", "Sleep Powder", "Moonlight"] }
       ]
     },
     {
