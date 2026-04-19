@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build:data": "node build-scripts/build-sprites.mjs && node build-scripts/build-journals.mjs && node build-scripts/build-game-guide.mjs && node build-scripts/build-releases.mjs && node build-scripts/build-pokedex.mjs",
-    "build": "npm run build:data && vite build",
+    "build:data": "echo 'Data files are committed directly — skipping generation'",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {

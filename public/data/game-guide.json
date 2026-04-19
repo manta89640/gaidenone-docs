@@ -1,0 +1,571 @@
+{
+  "generatedAt": "2026-04-19T12:00:00.000Z",
+  "starters": [
+    {
+      "species": "Dedenne",
+      "types": ["Electric", "Fairy"],
+      "level": 15
+    }
+  ],
+  "gymLeaders": [],
+  "eliteFour": [],
+  "champion": null,
+  "rivals": [
+    {
+      "rival": "Log",
+      "location": "Cho Village (1st)",
+      "party": [
+        { "species": "Machop", "level": 14, "heldItem": "Oran Berry" },
+        { "species": "Timburr", "level": 16, "heldItem": "Cheri Berry" }
+      ]
+    },
+    {
+      "rival": "Log",
+      "location": "Cho Village (2nd)",
+      "party": [
+        { "species": "Geodude", "level": 16, "heldItem": "Oran Berry" },
+        { "species": "Machop", "level": 17, "heldItem": "Oran Berry" },
+        { "species": "Timburr", "level": 19, "heldItem": "Cheri Berry" }
+      ]
+    },
+    {
+      "rival": "Log",
+      "location": "Jam Key Map (Final)",
+      "party": [
+        {
+          "species": "Golem", "level": 33, "heldItem": "Rindo Berry",
+          "moves": ["Stealth Rock", "Bulldoze", "Stone Edge", "Double-Edge"]
+        },
+        {
+          "species": "Stunfisk", "level": 32, "heldItem": "Shuca Berry",
+          "moves": ["Discharge", "Mud Bomb", "Bounce", "Muddy Water"]
+        },
+        {
+          "species": "Bibarel", "level": 33, "heldItem": "Chople Berry",
+          "moves": ["Yawn", "Hyper Fang", "Swords Dance", "Surf"]
+        },
+        {
+          "species": "Pangoro", "level": 33, "heldItem": "Roseli Berry",
+          "moves": ["Strength", "Crunch", "Superpower", "Work Up"]
+        },
+        {
+          "species": "Machamp", "level": 33, "heldItem": "Salac Berry",
+          "moves": ["Close Combat", "Submission", "Knock Off", "Focus Energy"]
+        },
+        {
+          "species": "Conkeldurr", "level": 35, "heldItem": "Lansat Berry",
+          "moves": ["Bulk Up", "Chip Away", "Rock Slide", "Superpower"]
+        }
+      ]
+    }
+  ],
+  "bossFights": [
+    {
+      "name": "Wolfsbane",
+      "location": "Dark Tournament",
+      "type": "Dark Champion",
+      "party": [
+        { "species": "Mawile", "level": 27, "heldItem": "Sitrus Berry" },
+        { "species": "Magcargo", "level": 26, "heldItem": "Charcoal" },
+        { "species": "Drampa", "level": 27, "heldItem": "Lum Berry" }
+      ]
+    },
+    {
+      "name": "Arum",
+      "location": "Dark Ruins Final Room",
+      "type": "Puzzle Master",
+      "party": [
+        {
+          "species": "Smeargle", "level": 30, "heldItem": "Lansat Berry",
+          "moves": ["Will-O-Wisp", "Leech Seed", "Shadow Ball", "Double-Edge"]
+        },
+        {
+          "species": "Dugtrio", "level": 30, "heldItem": "Passho Berry",
+          "moves": ["Tri Attack", "Dig", "Sand Attack", "Night Slash"]
+        },
+        {
+          "species": "Cofagrigus", "level": 30, "heldItem": "Apicot Berry",
+          "moves": ["Will-O-Wisp", "Hex", "Night Shade", "Disable"]
+        },
+        {
+          "species": "Claydol", "level": 30, "heldItem": "Kasib Berry",
+          "moves": ["Psybeam", "Earth Power", "Cosmic Power", "Rock Tomb"]
+        },
+        {
+          "species": "Torkoal", "level": 32, "heldItem": "Chilan Berry",
+          "moves": ["Lava Plume", "Amnesia", "Body Slam", "Shell Smash"]
+        }
+      ]
+    },
+    {
+      "name": "Oracle",
+      "location": "Oracle Hill Cave",
+      "type": "Grand",
+      "party": [
+        {
+          "species": "Ninetales", "level": 32, "heldItem": "Passho Berry",
+          "moves": ["Flamethrower", "Extrasensory", "Will-O-Wisp", "Confuse Ray"]
+        },
+        {
+          "species": "Chimecho", "level": 32, "heldItem": "Kasib Berry",
+          "moves": ["Psychic", "Bestow", "Yawn", "Heal Bell"]
+        },
+        {
+          "species": "Parasect", "level": 32, "heldItem": "Occa Berry",
+          "moves": ["Spore", "Bug Bite", "Natural Gift", "Giga Drain"]
+        },
+        {
+          "species": "Forretress", "level": 33, "heldItem": "Custap Berry",
+          "moves": ["Gyro Ball", "Bug Bite", "Stealth Rock", "Toxic Spikes"]
+        },
+        {
+          "species": "Absol", "level": 34, "heldItem": "Liechi Berry",
+          "moves": ["Night Slash", "Fling", "Sucker Punch", "Swords Dance"]
+        }
+      ]
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Ling",
+      "party": [
+        { "species": "Surskit", "level": 14, "heldItem": "Rindo Berry" }
+      ]
+    },
+    {
+      "name": "Bai",
+      "party": [
+        { "species": "Zigzagoon", "level": 13, "heldItem": "Leppa Berry" },
+        { "species": "Tympole", "level": 13, "heldItem": "Petaya Berry" }
+      ]
+    },
+    {
+      "name": "Hong",
+      "party": [
+        { "species": "Oddish", "level": 14, "heldItem": "Apicot Berry" }
+      ]
+    },
+    {
+      "name": "Fan",
+      "party": [
+        { "species": "Goldeen", "level": 16, "heldItem": "Sitrus Berry" }
+      ]
+    },
+    {
+      "name": "Bolin",
+      "party": [
+        { "species": "Grimer", "level": 15, "heldItem": "Shuca Berry" },
+        { "species": "Grimer", "level": 15, "heldItem": "Apicot Berry" }
+      ]
+    },
+    {
+      "name": "Changpu",
+      "party": [
+        { "species": "Croagunk", "level": 17, "heldItem": "Coba Berry" }
+      ]
+    },
+    {
+      "name": "Kang",
+      "party": [
+        { "species": "Bidoof", "level": 14, "heldItem": "Pecha Berry" },
+        { "species": "Bibarel", "level": 16, "heldItem": "Ganlon Berry" }
+      ]
+    },
+    {
+      "name": "Dandan",
+      "party": [
+        { "species": "Carnivine", "level": 16, "heldItem": "Kebia Berry" }
+      ]
+    },
+    {
+      "name": "Mai",
+      "party": [
+        { "species": "Grimer", "level": 15, "heldItem": "Pecha Berry" },
+        { "species": "Surskit", "level": 17, "heldItem": "Petaya Berry" }
+      ]
+    },
+    {
+      "name": "Huang",
+      "party": [
+        { "species": "Bidoof", "level": 15, "heldItem": "Leppa Berry" },
+        { "species": "Lombre", "level": 17, "heldItem": "Shuca Berry" }
+      ]
+    },
+    {
+      "name": "Goufu",
+      "party": [
+        {
+          "species": "Machop", "level": 17, "heldItem": "Oran Berry",
+          "moves": ["Meditate", "Focus Punch", "Meditate", "Focus Punch"]
+        }
+      ]
+    },
+    {
+      "name": "Pingzhang",
+      "party": [
+        { "species": "Goldeen", "level": 15, "heldItem": "Aguav Berry" },
+        { "species": "Tympole", "level": 15, "heldItem": "Rindo Berry" }
+      ]
+    },
+    {
+      "name": "Xinxie",
+      "party": [
+        { "species": "Croagunk", "level": 16, "heldItem": "Black Glasses" },
+        { "species": "Grimer", "level": 16, "heldItem": "Smoke Ball" }
+      ]
+    },
+    {
+      "name": "Cheng",
+      "party": [
+        { "species": "Lotad", "level": 15, "heldItem": "Damp Rock" },
+        { "species": "Bidoof", "level": 16, "heldItem": "Sitrus Berry" },
+        { "species": "Tympole", "level": 16, "heldItem": "Mystic Water" }
+      ]
+    },
+    {
+      "name": "Xiu",
+      "party": [
+        { "species": "Chingling", "level": 16, "heldItem": "Colbur Berry" },
+        { "species": "Goomy", "level": 16, "heldItem": "Chilan Berry" }
+      ]
+    },
+    {
+      "name": "Gen",
+      "party": [
+        { "species": "Spinarak", "level": 15, "heldItem": "Mago Berry" },
+        { "species": "Spinarak", "level": 17, "heldItem": "Salac Berry" }
+      ]
+    },
+    {
+      "name": "Nian",
+      "party": [
+        { "species": "Goldeen", "level": 16, "heldItem": "Aguav Berry" },
+        { "species": "Bidoof", "level": 16, "heldItem": "Chople Berry" },
+        { "species": "Goldeen", "level": 16, "heldItem": "Leppa Berry" }
+      ]
+    },
+    {
+      "name": "Zeliang",
+      "party": [
+        { "species": "Ninjask", "level": 17, "heldItem": "Silver Powder" }
+      ]
+    },
+    {
+      "name": "Minqiang",
+      "party": [
+        { "species": "Oddish", "level": 16, "heldItem": "Miracle Seed" },
+        { "species": "Paras", "level": 17, "heldItem": "Pecha Berry" }
+      ]
+    },
+    {
+      "name": "Shi",
+      "party": [
+        { "species": "Spinarak", "level": 18, "heldItem": "Payapa Berry" },
+        { "species": "Surskit", "level": 18, "heldItem": "Figy Berry" },
+        { "species": "Pineco", "level": 18, "heldItem": "Liechi Berry" }
+      ]
+    },
+    {
+      "name": "Ping",
+      "party": [
+        { "species": "Pineco", "level": 19, "heldItem": "Charti Berry" },
+        { "species": "Spinarak", "level": 19, "heldItem": "Persim Berry" }
+      ]
+    },
+    {
+      "name": "Chuntao",
+      "party": [
+        { "species": "Farfetch'd", "level": 20, "heldItem": "Jaboca Berry" }
+      ]
+    },
+    {
+      "name": "Daiyu",
+      "party": [
+        { "species": "Woobat", "level": 19, "heldItem": "Colbur Berry" },
+        { "species": "Tympole", "level": 19, "heldItem": "Rindo Berry" },
+        { "species": "Cherubi", "level": 20, "heldItem": "Wiki Berry" }
+      ]
+    },
+    {
+      "name": "Peipei",
+      "party": [
+        { "species": "Vulpix", "level": 19 }
+      ]
+    },
+    {
+      "name": "Pengfei",
+      "party": [
+        { "species": "Ariados", "level": 22, "heldItem": "Sitrus Berry" },
+        { "species": "Masquerain", "level": 22, "heldItem": "Charti Berry" }
+      ]
+    },
+    {
+      "name": "Yao",
+      "party": [
+        { "species": "Machop", "level": 21, "heldItem": "Leppa Berry" },
+        { "species": "Nuzleaf", "level": 21, "heldItem": "Tanga Berry" },
+        { "species": "Dunsparce", "level": 22, "heldItem": "Iapapa Berry" }
+      ]
+    },
+    {
+      "name": "Bowen",
+      "party": [
+        { "species": "Bidoof", "level": 21, "heldItem": "Oran Berry" },
+        { "species": "Pancham", "level": 21, "heldItem": "Sitrus Berry" },
+        { "species": "Croagunk", "level": 22, "heldItem": "Pecha Berry" }
+      ]
+    },
+    {
+      "name": "Meiling",
+      "party": [
+        { "species": "Smeargle", "level": 22, "heldItem": "Oran Berry" },
+        { "species": "Chimecho", "level": 21, "heldItem": "Chesto Berry" }
+      ]
+    },
+    {
+      "name": "Haoran",
+      "party": [
+        { "species": "Goldeen", "level": 21, "heldItem": "Rindo Berry" },
+        { "species": "Goldeen", "level": 22, "heldItem": "Rindo Berry" }
+      ]
+    },
+    {
+      "name": "Lu",
+      "party": [
+        { "species": "Baltoy", "level": 22, "heldItem": "Micle Berry" },
+        { "species": "Yamask", "level": 22, "heldItem": "Kasib Berry" }
+      ]
+    },
+    {
+      "name": "Rue",
+      "party": [
+        { "species": "Yamask", "level": 22, "heldItem": "Rawst Berry" },
+        { "species": "Baltoy", "level": 22, "heldItem": "Passho Berry" }
+      ]
+    },
+    {
+      "name": "Guowei",
+      "party": [
+        { "species": "Slugma", "level": 21, "heldItem": "Charti Berry" },
+        { "species": "Geodude", "level": 23, "heldItem": "Babiri Berry" }
+      ]
+    },
+    {
+      "name": "Huizhong",
+      "party": [
+        { "species": "Diglett", "level": 24, "heldItem": "Sitrus Berry" },
+        { "species": "Dugtrio", "level": 25, "heldItem": "Passho Berry" },
+        { "species": "Dugtrio", "level": 26, "heldItem": "Rindo Berry" }
+      ]
+    },
+    {
+      "name": "Baozhai",
+      "party": [
+        { "species": "Swoobat", "level": 26, "heldItem": "Lum Berry" },
+        { "species": "Chimecho", "level": 26, "heldItem": "Colbur Berry" }
+      ]
+    },
+    {
+      "name": "Xiao",
+      "party": [
+        { "species": "Linoone", "level": 26 },
+        { "species": "Pancham", "level": 28 }
+      ]
+    },
+    {
+      "name": "Hai",
+      "party": [
+        { "species": "Goldeen", "level": 25 },
+        { "species": "Palpitoad", "level": 26 },
+        { "species": "Seaking", "level": 27 }
+      ]
+    },
+    {
+      "name": "Mei",
+      "party": [
+        { "species": "Lombre", "level": 25 },
+        { "species": "Nuzleaf", "level": 26 },
+        { "species": "Cherrim", "level": 26 }
+      ]
+    },
+    {
+      "name": "Bo",
+      "party": [
+        { "species": "Ariados", "level": 25 },
+        { "species": "Pineco", "level": 25 },
+        { "species": "Croagunk", "level": 27 }
+      ]
+    },
+    {
+      "name": "Shan",
+      "party": [
+        { "species": "Graveler", "level": 27 },
+        { "species": "Machoke", "level": 27 },
+        { "species": "Baltoy", "level": 25 },
+        { "species": "Gurdurr", "level": 26 }
+      ]
+    },
+    {
+      "name": "Yue",
+      "party": [
+        { "species": "Bibarel", "level": 25 },
+        { "species": "Nuzleaf", "level": 26 },
+        { "species": "Gurdurr", "level": 27 }
+      ]
+    }
+  ],
+  "routes": {
+    "Pulp Byroad": {
+      "land": [
+        { "species": "Zigzagoon", "minLevel": 10, "maxLevel": 12, "rate": 35 },
+        { "species": "Oddish", "minLevel": 11, "maxLevel": 12, "rate": 30 },
+        { "species": "Cherubi", "minLevel": 11, "maxLevel": 12, "rate": 20 },
+        { "species": "Paras", "minLevel": 12, "maxLevel": 12, "rate": 8 },
+        { "species": "Pancham", "minLevel": 11, "maxLevel": 12, "rate": 6 },
+        { "species": "Farfetch'd", "minLevel": 12, "maxLevel": 12, "rate": 1 }
+      ]
+    },
+    "Shendown Path": {
+      "land": [
+        { "species": "Zigzagoon", "minLevel": 11, "maxLevel": 11, "rate": 20 },
+        { "species": "Oddish", "minLevel": 11, "maxLevel": 11, "rate": 20 },
+        { "species": "Surskit", "minLevel": 12, "maxLevel": 12, "rate": 15 },
+        { "species": "Pancham", "minLevel": 11, "maxLevel": 11, "rate": 15 },
+        { "species": "Grimer", "minLevel": 11, "maxLevel": 11, "rate": 10 },
+        { "species": "Tympole", "minLevel": 12, "maxLevel": 12, "rate": 10 },
+        { "species": "Paras", "minLevel": 11, "maxLevel": 11, "rate": 5 },
+        { "species": "Farfetch'd", "minLevel": 12, "maxLevel": 12, "rate": 5 }
+      ]
+    },
+    "Wangyong Marsh": {
+      "land": [
+        { "species": "Tympole", "minLevel": 13, "maxLevel": 13, "rate": 20 },
+        { "species": "Lotad", "minLevel": 13, "maxLevel": 13, "rate": 20 },
+        { "species": "Bidoof", "minLevel": 12, "maxLevel": 13, "rate": 15 },
+        { "species": "Croagunk", "minLevel": 12, "maxLevel": 14, "rate": 14 },
+        { "species": "Surskit", "minLevel": 13, "maxLevel": 13, "rate": 10 },
+        { "species": "Grimer", "minLevel": 13, "maxLevel": 13, "rate": 10 },
+        { "species": "Carnivine", "minLevel": 13, "maxLevel": 13, "rate": 5 },
+        { "species": "Stunfisk", "minLevel": 14, "maxLevel": 14, "rate": 5 },
+        { "species": "Goomy", "minLevel": 14, "maxLevel": 14, "rate": 1 }
+      ]
+    },
+    "Wangyong Marsh 2": {
+      "land": [
+        { "species": "Tympole", "minLevel": 13, "maxLevel": 13, "rate": 20 },
+        { "species": "Lotad", "minLevel": 13, "maxLevel": 13, "rate": 20 },
+        { "species": "Bidoof", "minLevel": 12, "maxLevel": 13, "rate": 15 },
+        { "species": "Croagunk", "minLevel": 12, "maxLevel": 14, "rate": 14 },
+        { "species": "Surskit", "minLevel": 13, "maxLevel": 13, "rate": 10 },
+        { "species": "Grimer", "minLevel": 13, "maxLevel": 13, "rate": 10 },
+        { "species": "Carnivine", "minLevel": 13, "maxLevel": 13, "rate": 5 },
+        { "species": "Stunfisk", "minLevel": 14, "maxLevel": 14, "rate": 5 },
+        { "species": "Goomy", "minLevel": 14, "maxLevel": 14, "rate": 1 }
+      ]
+    },
+    "Oracle Hill": {
+      "land": [
+        { "species": "Chingling", "minLevel": 13, "maxLevel": 15, "rate": 39 },
+        { "species": "Geodude", "minLevel": 13, "maxLevel": 15, "rate": 36 },
+        { "species": "Pancham", "minLevel": 13, "maxLevel": 13, "rate": 14 },
+        { "species": "Croagunk", "minLevel": 14, "maxLevel": 14, "rate": 10 },
+        { "species": "Oddish", "minLevel": 15, "maxLevel": 15, "rate": 1 }
+      ]
+    },
+    "Kimyang Road": {
+      "land": [
+        { "species": "Bidoof", "minLevel": 13, "maxLevel": 14, "rate": 30 },
+        { "species": "Seedot", "minLevel": 13, "maxLevel": 13, "rate": 20 },
+        { "species": "Croagunk", "minLevel": 14, "maxLevel": 15, "rate": 15 },
+        { "species": "Geodude", "minLevel": 14, "maxLevel": 14, "rate": 10 },
+        { "species": "Tympole", "minLevel": 14, "maxLevel": 14, "rate": 10 },
+        { "species": "Spinarak", "minLevel": 13, "maxLevel": 13, "rate": 5 },
+        { "species": "Carnivine", "minLevel": 14, "maxLevel": 14, "rate": 5 },
+        { "species": "Farfetch'd", "minLevel": 15, "maxLevel": 15, "rate": 5 }
+      ]
+    },
+    "Color Ruins Yellow 1F": {
+      "land": [
+        { "species": "Geodude", "minLevel": 13, "maxLevel": 16, "rate": 65 },
+        { "species": "Baltoy", "minLevel": 13, "maxLevel": 14, "rate": 30 },
+        { "species": "Smeargle", "minLevel": 16, "maxLevel": 16, "rate": 5 }
+      ]
+    },
+    "Color Ruins Yellow B1F": {
+      "land": [
+        { "species": "Diglett", "minLevel": 15, "maxLevel": 15, "rate": 35 },
+        { "species": "Baltoy", "minLevel": 14, "maxLevel": 15, "rate": 30 },
+        { "species": "Geodude", "minLevel": 14, "maxLevel": 15, "rate": 25 },
+        { "species": "Yamask", "minLevel": 16, "maxLevel": 16, "rate": 10 }
+      ]
+    },
+    "Linking Tunnel": {
+      "land": [
+        { "species": "Woobat", "minLevel": 11, "maxLevel": 11, "rate": 35 },
+        { "species": "Geodude", "minLevel": 11, "maxLevel": 11, "rate": 20 },
+        { "species": "Machop", "minLevel": 12, "maxLevel": 12, "rate": 20 },
+        { "species": "Diglett", "minLevel": 11, "maxLevel": 11, "rate": 10 },
+        { "species": "Timburr", "minLevel": 11, "maxLevel": 12, "rate": 10 },
+        { "species": "Dunsparce", "minLevel": 12, "maxLevel": 12, "rate": 5 }
+      ]
+    },
+    "Tiyu Forest": {
+      "land": [
+        { "species": "Paras", "minLevel": 13, "maxLevel": 14, "rate": 25 },
+        { "species": "Seedot", "minLevel": 13, "maxLevel": 13, "rate": 20 },
+        { "species": "Spinarak", "minLevel": 14, "maxLevel": 14, "rate": 20 },
+        { "species": "Pineco", "minLevel": 14, "maxLevel": 14, "rate": 10 },
+        { "species": "Oddish", "minLevel": 14, "maxLevel": 14, "rate": 10 },
+        { "species": "Vulpix", "minLevel": 13, "maxLevel": 13, "rate": 5 },
+        { "species": "Farfetch'd", "minLevel": 15, "maxLevel": 15, "rate": 5 },
+        { "species": "Carnivine", "minLevel": 15, "maxLevel": 15, "rate": 4 },
+        { "species": "Murkrow", "minLevel": 15, "maxLevel": 15, "rate": 1 }
+      ]
+    },
+    "Color Ruins Green 1F": {
+      "land": [
+        { "species": "Geodude", "minLevel": 13, "maxLevel": 16, "rate": 65 },
+        { "species": "Baltoy", "minLevel": 13, "maxLevel": 14, "rate": 30 },
+        { "species": "Smeargle", "minLevel": 16, "maxLevel": 16, "rate": 5 }
+      ]
+    },
+    "Color Ruins Red 1F": {
+      "land": [
+        { "species": "Geodude", "minLevel": 13, "maxLevel": 16, "rate": 65 },
+        { "species": "Baltoy", "minLevel": 13, "maxLevel": 14, "rate": 30 },
+        { "species": "Smeargle", "minLevel": 16, "maxLevel": 16, "rate": 5 }
+      ]
+    },
+    "Color Ruins Red B1F": {
+      "land": [
+        { "species": "Diglett", "minLevel": 15, "maxLevel": 15, "rate": 35 },
+        { "species": "Baltoy", "minLevel": 14, "maxLevel": 15, "rate": 30 },
+        { "species": "Geodude", "minLevel": 14, "maxLevel": 15, "rate": 25 },
+        { "species": "Yamask", "minLevel": 16, "maxLevel": 16, "rate": 10 }
+      ]
+    },
+    "Zhaoun Path": {
+      "land": [
+        { "species": "Surskit", "minLevel": 17, "maxLevel": 18, "rate": 100 }
+      ]
+    },
+    "Color Ruins Blue 1F": {
+      "land": [
+        { "species": "Geodude", "minLevel": 13, "maxLevel": 16, "rate": 65 },
+        { "species": "Baltoy", "minLevel": 13, "maxLevel": 14, "rate": 30 },
+        { "species": "Smeargle", "minLevel": 16, "maxLevel": 16, "rate": 5 }
+      ]
+    },
+    "Dark City Entrance": {
+      "land": [
+        { "species": "Baltoy", "minLevel": 16, "maxLevel": 17, "rate": 30 },
+        { "species": "Diglett", "minLevel": 16, "maxLevel": 17, "rate": 25 },
+        { "species": "Geodude", "minLevel": 16, "maxLevel": 17, "rate": 20 },
+        { "species": "Woobat", "minLevel": 16, "maxLevel": 18, "rate": 14 },
+        { "species": "Slugma", "minLevel": 17, "maxLevel": 17, "rate": 5 },
+        { "species": "Yamask", "minLevel": 18, "maxLevel": 18, "rate": 5 },
+        { "species": "Mawile", "minLevel": 18, "maxLevel": 18, "rate": 1 }
+      ]
+    }
+  }
+}

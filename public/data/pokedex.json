@@ -1,0 +1,8417 @@
+{
+  "generatedAt": "2026-04-19T12:00:00.000Z",
+  "pokemon": [
+    {
+      "id": 37,
+      "name": "Vulpix",
+      "types": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 38,
+        "atk": 41,
+        "def": 40,
+        "spa": 50,
+        "spd": 65,
+        "spe": 65
+      },
+      "bst": 299,
+      "abilities": [
+        "Flash Fire"
+      ],
+      "category": "Fox Pok\u00e9mon",
+      "height": 0.6000000000000001,
+      "weight": 9.9,
+      "description": "At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
+      "catchRate": 190,
+      "genderRatio": "25% male, 75% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Passho Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Ember"
+          },
+          {
+            "level": 5,
+            "move": "Tail Whip"
+          },
+          {
+            "level": 9,
+            "move": "Roar"
+          },
+          {
+            "level": 13,
+            "move": "Quick Attack"
+          },
+          {
+            "level": 17,
+            "move": "Will O Wisp"
+          },
+          {
+            "level": 17,
+            "move": "Incinerate"
+          },
+          {
+            "level": 21,
+            "move": "Confuse Ray"
+          },
+          {
+            "level": 25,
+            "move": "Imprison"
+          },
+          {
+            "level": 29,
+            "move": "Flamethrower"
+          },
+          {
+            "level": 33,
+            "move": "Safeguard"
+          },
+          {
+            "level": 37,
+            "move": "Grudge"
+          },
+          {
+            "level": 41,
+            "move": "Fire Spin"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Ninetales",
+      "types": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 73,
+        "atk": 76,
+        "def": 75,
+        "spa": 81,
+        "spd": 100,
+        "spe": 100
+      },
+      "bst": 505,
+      "abilities": [
+        "Flash Fire"
+      ],
+      "category": "Fox Pok\u00e9mon",
+      "height": 1.1,
+      "weight": 19.900000000000002,
+      "description": "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse.",
+      "catchRate": 75,
+      "genderRatio": "25% male, 75% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 1,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Passho Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Ember"
+          },
+          {
+            "level": 1,
+            "move": "Quick Attack"
+          },
+          {
+            "level": 1,
+            "move": "Confuse Ray"
+          },
+          {
+            "level": 1,
+            "move": "Safeguard"
+          },
+          {
+            "level": 1,
+            "move": "Incinerate"
+          },
+          {
+            "level": 45,
+            "move": "Fire Spin"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Vulpix",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 43,
+      "name": "Oddish",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": {
+        "hp": 45,
+        "atk": 50,
+        "def": 55,
+        "spa": 75,
+        "spd": 65,
+        "spe": 30
+      },
+      "bst": 320,
+      "abilities": [
+        "Chlorophyll",
+        "Harvest"
+      ],
+      "category": "Weed Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 5.4,
+      "description": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 1,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Pecha Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Absorb"
+          },
+          {
+            "level": 7,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 14,
+            "move": "Poison Powder"
+          },
+          {
+            "level": 16,
+            "move": "Stun Spore"
+          },
+          {
+            "level": 18,
+            "move": "Sleep Powder"
+          },
+          {
+            "level": 19,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 23,
+            "move": "Acid"
+          },
+          {
+            "level": 32,
+            "move": "Moonlight"
+          },
+          {
+            "level": 39,
+            "move": "Petal Dance"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Pulp Byroad",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 12,
+          "rate": 30
+        },
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 20
+        },
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 10
+        },
+        {
+          "map": "Oracle Hill",
+          "method": "Grass",
+          "minLevel": 15,
+          "maxLevel": 15,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Gloom",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": {
+        "hp": 60,
+        "atk": 65,
+        "def": 70,
+        "spa": 85,
+        "spd": 75,
+        "spe": 40
+      },
+      "bst": 395,
+      "abilities": [
+        "Chlorophyll",
+        "Harvest"
+      ],
+      "category": "Weed Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 8.6,
+      "description": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+      "catchRate": 120,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 2,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Pecha Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Absorb"
+          },
+          {
+            "level": 1,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 1,
+            "move": "Poison Powder"
+          },
+          {
+            "level": 7,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 14,
+            "move": "Poison Powder"
+          },
+          {
+            "level": 16,
+            "move": "Stun Spore"
+          },
+          {
+            "level": 18,
+            "move": "Sleep Powder"
+          },
+          {
+            "level": 20,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 24,
+            "move": "Acid"
+          },
+          {
+            "level": 35,
+            "move": "Moonlight"
+          },
+          {
+            "level": 44,
+            "move": "Petal Dance"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Oddish",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 45,
+      "name": "Vileplume",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": {
+        "hp": 75,
+        "atk": 80,
+        "def": 85,
+        "spa": 110,
+        "spd": 90,
+        "spe": 50
+      },
+      "bst": 490,
+      "abilities": [
+        "Chlorophyll",
+        "Harvest"
+      ],
+      "category": "Flower Pok\u00e9mon",
+      "height": 1.2000000000000002,
+      "weight": 18.6,
+      "description": "It has the world\u2019s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 3,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Pecha Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Absorb"
+          },
+          {
+            "level": 1,
+            "move": "Aromatherapy"
+          },
+          {
+            "level": 1,
+            "move": "Stun Spore"
+          },
+          {
+            "level": 1,
+            "move": "Mega Drain"
+          },
+          {
+            "level": 1,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 44,
+            "move": "Petal Dance"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Gloom",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 46,
+      "name": "Paras",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 35,
+        "atk": 70,
+        "def": 55,
+        "spa": 45,
+        "spd": 55,
+        "spe": 25
+      },
+      "bst": 285,
+      "abilities": [
+        "Effect Spore",
+        "Harvest"
+      ],
+      "category": "Mushroom Pok\u00e9mon",
+      "height": 0.30000000000000004,
+      "weight": 5.4,
+      "description": "Burrows to suck tree roots. The mushrooms on its back grow by draw\u00ad ing nutrients from the bug host.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Bug",
+        "Plant"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Scratch"
+          },
+          {
+            "level": 7,
+            "move": "Stun Spore"
+          },
+          {
+            "level": 13,
+            "move": "Poison Powder"
+          },
+          {
+            "level": 15,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 19,
+            "move": "Leech Life"
+          },
+          {
+            "level": 25,
+            "move": "Spore"
+          },
+          {
+            "level": 31,
+            "move": "Slash"
+          },
+          {
+            "level": 37,
+            "move": "Growth"
+          },
+          {
+            "level": 43,
+            "move": "Giga Drain"
+          },
+          {
+            "level": 49,
+            "move": "Aromatherapy"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Pulp Byroad",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 12,
+          "rate": 8
+        },
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 5
+        },
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 14,
+          "rate": 25
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Parasect",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 60,
+        "atk": 95,
+        "def": 80,
+        "spa": 60,
+        "spd": 80,
+        "spe": 30
+      },
+      "bst": 405,
+      "abilities": [
+        "Effect Spore",
+        "Harvest"
+      ],
+      "category": "Mushroom Pok\u00e9mon",
+      "height": 1,
+      "weight": 29.5,
+      "description": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Bug",
+        "Plant"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 1,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Scratch"
+          },
+          {
+            "level": 1,
+            "move": "Stun Spore"
+          },
+          {
+            "level": 1,
+            "move": "Poison Powder"
+          },
+          {
+            "level": 7,
+            "move": "Stun Spore"
+          },
+          {
+            "level": 13,
+            "move": "Poison Powder"
+          },
+          {
+            "level": 15,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 19,
+            "move": "Leech Life"
+          },
+          {
+            "level": 27,
+            "move": "Spore"
+          },
+          {
+            "level": 35,
+            "move": "Slash"
+          },
+          {
+            "level": 43,
+            "move": "Growth"
+          },
+          {
+            "level": 51,
+            "move": "Giga Drain"
+          },
+          {
+            "level": 59,
+            "move": "Aromatherapy"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Paras",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 50,
+      "name": "Diglett",
+      "types": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 10,
+        "atk": 55,
+        "def": 25,
+        "spa": 35,
+        "spd": 45,
+        "spe": 95
+      },
+      "bst": 265,
+      "abilities": [
+        "Sand Veil",
+        "Arena Trap"
+      ],
+      "category": "Mole Pok\u00e9mon",
+      "height": 0.2,
+      "weight": 0.8,
+      "description": "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Passho Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Tri Attack"
+          },
+          {
+            "level": 1,
+            "move": "Scratch"
+          },
+          {
+            "level": 1,
+            "move": "Sand Attack"
+          },
+          {
+            "level": 5,
+            "move": "Growl"
+          },
+          {
+            "level": 9,
+            "move": "Magnitude"
+          },
+          {
+            "level": 17,
+            "move": "Dig"
+          },
+          {
+            "level": 21,
+            "move": "Fling"
+          },
+          {
+            "level": 25,
+            "move": "Mud Slap"
+          },
+          {
+            "level": 33,
+            "move": "Slash"
+          },
+          {
+            "level": 41,
+            "move": "Earthquake"
+          },
+          {
+            "level": 49,
+            "move": "Fissure"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Linking Tunnel",
+          "method": "Cave",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 10
+        },
+        {
+          "map": "Color Ruins B1F",
+          "method": "Cave",
+          "minLevel": 15,
+          "maxLevel": 15,
+          "rate": 35
+        },
+        {
+          "map": "Dark City Entrance",
+          "method": "Cave",
+          "minLevel": 16,
+          "maxLevel": 17,
+          "rate": 25
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Dugtrio",
+      "types": [
+        "Ground"
+      ],
+      "stats": {
+        "hp": 35,
+        "atk": 100,
+        "def": 50,
+        "spa": 50,
+        "spd": 70,
+        "spe": 120
+      },
+      "bst": 425,
+      "abilities": [
+        "Sand Veil",
+        "Arena Trap"
+      ],
+      "category": "Mole Pok\u00e9mon",
+      "height": 0.7000000000000001,
+      "weight": 33.300000000000004,
+      "description": "A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+      "catchRate": 50,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 2
+      },
+      "heldItems": {
+        "common": "Passho Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Night Slash"
+          },
+          {
+            "level": 1,
+            "move": "Tri Attack"
+          },
+          {
+            "level": 1,
+            "move": "Scratch"
+          },
+          {
+            "level": 1,
+            "move": "Sand Attack"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 5,
+            "move": "Growl"
+          },
+          {
+            "level": 9,
+            "move": "Magnitude"
+          },
+          {
+            "level": 17,
+            "move": "Dig"
+          },
+          {
+            "level": 21,
+            "move": "Fling"
+          },
+          {
+            "level": 25,
+            "move": "Mud Slap"
+          },
+          {
+            "level": 26,
+            "move": "Sand Tomb"
+          },
+          {
+            "level": 38,
+            "move": "Slash"
+          },
+          {
+            "level": 51,
+            "move": "Earthquake"
+          },
+          {
+            "level": 64,
+            "move": "Fissure"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Diglett",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 66,
+      "name": "Machop",
+      "types": [
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 80,
+        "def": 50,
+        "spa": 35,
+        "spd": 35,
+        "spe": 35
+      },
+      "bst": 305,
+      "abilities": [
+        "Guts",
+        "No Guard"
+      ],
+      "category": "Superpower Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 19.5,
+      "description": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
+      "catchRate": 180,
+      "genderRatio": "75% male, 25% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Coba Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Foresight"
+          },
+          {
+            "level": 1,
+            "move": "Low Kick"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 1,
+            "move": "Low Kick"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 7,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 13,
+            "move": "Karate Chop"
+          },
+          {
+            "level": 19,
+            "move": "Seismic Toss"
+          },
+          {
+            "level": 22,
+            "move": "Foresight"
+          },
+          {
+            "level": 22,
+            "move": "Fling"
+          },
+          {
+            "level": 25,
+            "move": "Revenge"
+          },
+          {
+            "level": 31,
+            "move": "Vital Throw"
+          },
+          {
+            "level": 37,
+            "move": "Submission"
+          },
+          {
+            "level": 40,
+            "move": "Cross Chop"
+          },
+          {
+            "level": 43,
+            "move": "Scary Face"
+          },
+          {
+            "level": 49,
+            "move": "Dynamic Punch"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Linking Tunnel",
+          "method": "Cave",
+          "minLevel": 12,
+          "maxLevel": 12,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Machoke",
+      "types": [
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 100,
+        "def": 70,
+        "spa": 50,
+        "spd": 60,
+        "spe": 45
+      },
+      "bst": 405,
+      "abilities": [
+        "Guts",
+        "No Guard"
+      ],
+      "category": "Superpower Pok\u00e9mon",
+      "height": 1.5,
+      "weight": 70.5,
+      "description": "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions.",
+      "catchRate": 90,
+      "genderRatio": "75% male, 25% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Coba Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Foresight"
+          },
+          {
+            "level": 1,
+            "move": "Low Kick"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 1,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 7,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 13,
+            "move": "Karate Chop"
+          },
+          {
+            "level": 19,
+            "move": "Seismic Toss"
+          },
+          {
+            "level": 22,
+            "move": "Foresight"
+          },
+          {
+            "level": 22,
+            "move": "Fling"
+          },
+          {
+            "level": 25,
+            "move": "Revenge"
+          },
+          {
+            "level": 33,
+            "move": "Vital Throw"
+          },
+          {
+            "level": 41,
+            "move": "Submission"
+          },
+          {
+            "level": 46,
+            "move": "Cross Chop"
+          },
+          {
+            "level": 51,
+            "move": "Scary Face"
+          },
+          {
+            "level": 59,
+            "move": "Dynamic Punch"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Machop",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 68,
+      "name": "Machamp",
+      "types": [
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 90,
+        "atk": 130,
+        "def": 80,
+        "spa": 65,
+        "spd": 85,
+        "spe": 55
+      },
+      "bst": 505,
+      "abilities": [
+        "Guts",
+        "No Guard"
+      ],
+      "category": "Superpower Pok\u00e9mon",
+      "height": 1.6,
+      "weight": 130,
+      "description": "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon.",
+      "catchRate": 45,
+      "genderRatio": "75% male, 25% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 3,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Coba Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Low Kick"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 1,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 7,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 13,
+            "move": "Karate Chop"
+          },
+          {
+            "level": 19,
+            "move": "Seismic Toss"
+          },
+          {
+            "level": 22,
+            "move": "Foresight"
+          },
+          {
+            "level": 22,
+            "move": "Fling"
+          },
+          {
+            "level": 25,
+            "move": "Revenge"
+          },
+          {
+            "level": 33,
+            "move": "Vital Throw"
+          },
+          {
+            "level": 41,
+            "move": "Submission"
+          },
+          {
+            "level": 46,
+            "move": "Cross Chop"
+          },
+          {
+            "level": 51,
+            "move": "Scary Face"
+          },
+          {
+            "level": 59,
+            "move": "Dynamic Punch"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Machoke",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 74,
+      "name": "Geodude",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 80,
+        "def": 100,
+        "spa": 30,
+        "spd": 30,
+        "spe": 20
+      },
+      "bst": 300,
+      "abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "category": "Rock Pok\u00e9mon",
+      "height": 0.4,
+      "weight": 20,
+      "description": "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Mineral"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 1,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Rock Blast"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Defense Curl"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Defense Curl"
+          },
+          {
+            "level": 6,
+            "move": "Mud Sport"
+          },
+          {
+            "level": 11,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 16,
+            "move": "Magnitude"
+          },
+          {
+            "level": 21,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 21,
+            "move": "Fling"
+          },
+          {
+            "level": 26,
+            "move": "Rollout"
+          },
+          {
+            "level": 31,
+            "move": "Rock Blast"
+          },
+          {
+            "level": 36,
+            "move": "Earthquake"
+          },
+          {
+            "level": 41,
+            "move": "Explosion"
+          },
+          {
+            "level": 46,
+            "move": "Double Edge"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 10
+        },
+        {
+          "map": "Linking Tunnel",
+          "method": "Cave",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 20
+        },
+        {
+          "map": "Oracle Hill",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 15,
+          "rate": 36
+        },
+        {
+          "map": "Color Ruins 1F",
+          "method": "Cave",
+          "minLevel": 13,
+          "maxLevel": 16,
+          "rate": 65
+        },
+        {
+          "map": "Color Ruins B1F",
+          "method": "Cave",
+          "minLevel": 14,
+          "maxLevel": 15,
+          "rate": 25
+        },
+        {
+          "map": "Dark City Entrance",
+          "method": "Cave",
+          "minLevel": 16,
+          "maxLevel": 17,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Graveler",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 55,
+        "atk": 95,
+        "def": 115,
+        "spa": 45,
+        "spd": 45,
+        "spe": 35
+      },
+      "bst": 390,
+      "abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "category": "Rock Pok\u00e9mon",
+      "height": 1,
+      "weight": 105,
+      "description": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+      "catchRate": 120,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Mineral"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 2,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Rock Blast"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Defense Curl"
+          },
+          {
+            "level": 1,
+            "move": "Mud Sport"
+          },
+          {
+            "level": 1,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 6,
+            "move": "Mud Sport"
+          },
+          {
+            "level": 11,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 16,
+            "move": "Magnitude"
+          },
+          {
+            "level": 21,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 21,
+            "move": "Fling"
+          },
+          {
+            "level": 29,
+            "move": "Rollout"
+          },
+          {
+            "level": 37,
+            "move": "Rock Blast"
+          },
+          {
+            "level": 45,
+            "move": "Earthquake"
+          },
+          {
+            "level": 53,
+            "move": "Explosion"
+          },
+          {
+            "level": 62,
+            "move": "Double Edge"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Geodude",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 76,
+      "name": "Golem",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 120,
+        "def": 130,
+        "spa": 55,
+        "spd": 65,
+        "spe": 45
+      },
+      "bst": 495,
+      "abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "category": "Megaton Pok\u00e9mon",
+      "height": 1.4000000000000001,
+      "weight": 300,
+      "description": "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Mineral"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 3,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Rock Blast"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Defense Curl"
+          },
+          {
+            "level": 1,
+            "move": "Mud Sport"
+          },
+          {
+            "level": 1,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 6,
+            "move": "Mud Sport"
+          },
+          {
+            "level": 11,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 16,
+            "move": "Magnitude"
+          },
+          {
+            "level": 21,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 21,
+            "move": "Fling"
+          },
+          {
+            "level": 29,
+            "move": "Rollout"
+          },
+          {
+            "level": 37,
+            "move": "Rock Blast"
+          },
+          {
+            "level": 45,
+            "move": "Earthquake"
+          },
+          {
+            "level": 53,
+            "move": "Explosion"
+          },
+          {
+            "level": 62,
+            "move": "Double Edge"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Graveler",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 83,
+      "name": "Farfetch'd",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": {
+        "hp": 52,
+        "atk": 90,
+        "def": 55,
+        "spa": 58,
+        "spd": 62,
+        "spe": 60
+      },
+      "bst": 377,
+      "abilities": [
+        "Keen Eye",
+        "Inner Focus"
+      ],
+      "category": "Wild Duck Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 15,
+      "description": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Flying",
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Cheri Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Peck"
+          },
+          {
+            "level": 6,
+            "move": "Sand Attack"
+          },
+          {
+            "level": 11,
+            "move": "Leer"
+          },
+          {
+            "level": 16,
+            "move": "Fury Attack"
+          },
+          {
+            "level": 16,
+            "move": "Pluck"
+          },
+          {
+            "level": 21,
+            "move": "Knock Off"
+          },
+          {
+            "level": 26,
+            "move": "Fury Cutter"
+          },
+          {
+            "level": 31,
+            "move": "Swords Dance"
+          },
+          {
+            "level": 36,
+            "move": "Agility"
+          },
+          {
+            "level": 41,
+            "move": "Slash"
+          },
+          {
+            "level": 46,
+            "move": "False Swipe"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Pulp Byroad",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 12,
+          "rate": 1
+        },
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 12,
+          "rate": 5
+        },
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 15,
+          "maxLevel": 15,
+          "rate": 5
+        },
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 15,
+          "maxLevel": 15,
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Grimer",
+      "types": [
+        "Poison"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 80,
+        "def": 50,
+        "spa": 40,
+        "spd": 50,
+        "spe": 25
+      },
+      "bst": 325,
+      "abilities": [
+        "Stench",
+        "Gluttony"
+      ],
+      "category": "Sludge Pok\u00e9mon",
+      "height": 0.9,
+      "weight": 30,
+      "description": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Indeterminate"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 1,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Shuca Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Poison Gas"
+          },
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 4,
+            "move": "Harden"
+          },
+          {
+            "level": 8,
+            "move": "Disable"
+          },
+          {
+            "level": 13,
+            "move": "Sludge"
+          },
+          {
+            "level": 19,
+            "move": "Minimize"
+          },
+          {
+            "level": 22,
+            "move": "Belch"
+          },
+          {
+            "level": 26,
+            "move": "Screech"
+          },
+          {
+            "level": 34,
+            "move": "Acid Armor"
+          },
+          {
+            "level": 43,
+            "move": "Sludge Bomb"
+          },
+          {
+            "level": 53,
+            "move": "Memento"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 10
+        },
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 10
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 10
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Muk",
+      "types": [
+        "Poison"
+      ],
+      "stats": {
+        "hp": 105,
+        "atk": 105,
+        "def": 75,
+        "spa": 65,
+        "spd": 100,
+        "spe": 50
+      },
+      "bst": 500,
+      "abilities": [
+        "Stench",
+        "Gluttony"
+      ],
+      "category": "Sludge Pok\u00e9mon",
+      "height": 1.2000000000000002,
+      "weight": 30,
+      "description": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Indeterminate"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 1,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Shuca Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Poison Gas"
+          },
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 1,
+            "move": "Harden"
+          },
+          {
+            "level": 4,
+            "move": "Harden"
+          },
+          {
+            "level": 8,
+            "move": "Disable"
+          },
+          {
+            "level": 13,
+            "move": "Sludge"
+          },
+          {
+            "level": 19,
+            "move": "Minimize"
+          },
+          {
+            "level": 22,
+            "move": "Belch"
+          },
+          {
+            "level": 26,
+            "move": "Screech"
+          },
+          {
+            "level": 34,
+            "move": "Acid Armor"
+          },
+          {
+            "level": 47,
+            "move": "Sludge Bomb"
+          },
+          {
+            "level": 61,
+            "move": "Memento"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Grimer",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 118,
+      "name": "Goldeen",
+      "types": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 45,
+        "atk": 67,
+        "def": 60,
+        "spa": 35,
+        "spd": 50,
+        "spe": 63
+      },
+      "bst": 320,
+      "abilities": [
+        "Swift Swim",
+        "Water Veil"
+      ],
+      "category": "Goldfish Pok\u00e9mon",
+      "height": 0.6000000000000001,
+      "weight": 15,
+      "description": "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
+      "catchRate": 225,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water2"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Peck"
+          },
+          {
+            "level": 1,
+            "move": "Tail Whip"
+          },
+          {
+            "level": 1,
+            "move": "Water Sport"
+          },
+          {
+            "level": 10,
+            "move": "Supersonic"
+          },
+          {
+            "level": 15,
+            "move": "Horn Attack"
+          },
+          {
+            "level": 20,
+            "move": "Pluck"
+          },
+          {
+            "level": 24,
+            "move": "Flail"
+          },
+          {
+            "level": 29,
+            "move": "Fury Attack"
+          },
+          {
+            "level": 38,
+            "move": "Waterfall"
+          },
+          {
+            "level": 43,
+            "move": "Horn Drill"
+          },
+          {
+            "level": 52,
+            "move": "Agility"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 119,
+      "name": "Seaking",
+      "types": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 92,
+        "def": 65,
+        "spa": 65,
+        "spd": 80,
+        "spe": 68
+      },
+      "bst": 450,
+      "abilities": [
+        "Swift Swim",
+        "Water Veil"
+      ],
+      "category": "Goldfish Pok\u00e9mon",
+      "height": 1.3,
+      "weight": 39,
+      "description": "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
+      "catchRate": 60,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water2"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Peck"
+          },
+          {
+            "level": 1,
+            "move": "Tail Whip"
+          },
+          {
+            "level": 1,
+            "move": "Water Sport"
+          },
+          {
+            "level": 1,
+            "move": "Supersonic"
+          },
+          {
+            "level": 10,
+            "move": "Supersonic"
+          },
+          {
+            "level": 15,
+            "move": "Horn Attack"
+          },
+          {
+            "level": 20,
+            "move": "Pluck"
+          },
+          {
+            "level": 24,
+            "move": "Flail"
+          },
+          {
+            "level": 29,
+            "move": "Fury Attack"
+          },
+          {
+            "level": 41,
+            "move": "Waterfall"
+          },
+          {
+            "level": 49,
+            "move": "Horn Drill"
+          },
+          {
+            "level": 61,
+            "move": "Agility"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Goldeen",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 167,
+      "name": "Spinarak",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 60,
+        "def": 40,
+        "spa": 40,
+        "spd": 40,
+        "spe": 30
+      },
+      "bst": 250,
+      "abilities": [
+        "Swarm",
+        "Insomnia"
+      ],
+      "category": "String Spit Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 8.5,
+      "description": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Bug"
+      ],
+      "growthRate": "Fast",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Spider Web"
+          },
+          {
+            "level": 1,
+            "move": "Agility"
+          },
+          {
+            "level": 1,
+            "move": "Poison Sting"
+          },
+          {
+            "level": 1,
+            "move": "String Shot"
+          },
+          {
+            "level": 1,
+            "move": "Poison Sting"
+          },
+          {
+            "level": 1,
+            "move": "String Shot"
+          },
+          {
+            "level": 6,
+            "move": "Scary Face"
+          },
+          {
+            "level": 11,
+            "move": "Constrict"
+          },
+          {
+            "level": 17,
+            "move": "Night Shade"
+          },
+          {
+            "level": 17,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 23,
+            "move": "Leech Life"
+          },
+          {
+            "level": 30,
+            "move": "Fury Swipes"
+          },
+          {
+            "level": 37,
+            "move": "Spider Web"
+          },
+          {
+            "level": 45,
+            "move": "Agility"
+          },
+          {
+            "level": 53,
+            "move": "Psychic"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 5
+        },
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Ariados",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 90,
+        "def": 70,
+        "spa": 60,
+        "spd": 70,
+        "spe": 40
+      },
+      "bst": 400,
+      "abilities": [
+        "Swarm",
+        "Unnerve"
+      ],
+      "category": "Long Leg Pok\u00e9mon",
+      "height": 1.1,
+      "weight": 33.5,
+      "description": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
+      "catchRate": 90,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Bug"
+      ],
+      "growthRate": "Fast",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Spider Web"
+          },
+          {
+            "level": 1,
+            "move": "Agility"
+          },
+          {
+            "level": 1,
+            "move": "Poison Sting"
+          },
+          {
+            "level": 1,
+            "move": "String Shot"
+          },
+          {
+            "level": 1,
+            "move": "Scary Face"
+          },
+          {
+            "level": 1,
+            "move": "Constrict"
+          },
+          {
+            "level": 6,
+            "move": "Scary Face"
+          },
+          {
+            "level": 11,
+            "move": "Constrict"
+          },
+          {
+            "level": 17,
+            "move": "Night Shade"
+          },
+          {
+            "level": 17,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 25,
+            "move": "Leech Life"
+          },
+          {
+            "level": 34,
+            "move": "Fury Swipes"
+          },
+          {
+            "level": 43,
+            "move": "Spider Web"
+          },
+          {
+            "level": 53,
+            "move": "Agility"
+          },
+          {
+            "level": 63,
+            "move": "Psychic"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Spinarak",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 198,
+      "name": "Murkrow",
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "stats": {
+        "hp": 60,
+        "atk": 85,
+        "def": 42,
+        "spa": 85,
+        "spd": 42,
+        "spe": 91
+      },
+      "bst": 405,
+      "abilities": [
+        "Insomnia",
+        "Unnerve"
+      ],
+      "category": "Darkness Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 2.1,
+      "description": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      "catchRate": 30,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Flying"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Peck"
+          },
+          {
+            "level": 9,
+            "move": "Astonish"
+          },
+          {
+            "level": 14,
+            "move": "Pursuit"
+          },
+          {
+            "level": 18,
+            "move": "Pluck"
+          },
+          {
+            "level": 22,
+            "move": "Haze"
+          },
+          {
+            "level": 27,
+            "move": "Night Shade"
+          },
+          {
+            "level": 35,
+            "move": "Faint Attack"
+          },
+          {
+            "level": 40,
+            "move": "Taunt"
+          },
+          {
+            "level": 48,
+            "move": "Mean Look"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 15,
+          "maxLevel": 15,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Pineco",
+      "types": [
+        "Bug"
+      ],
+      "stats": {
+        "hp": 50,
+        "atk": 65,
+        "def": 90,
+        "spa": 35,
+        "spd": 35,
+        "spe": 15
+      },
+      "bst": 290,
+      "abilities": [
+        "Sturdy"
+      ],
+      "category": "Bagworm Pok\u00e9mon",
+      "height": 0.6000000000000001,
+      "weight": 7.2,
+      "description": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Bug"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 1,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Spikes"
+          },
+          {
+            "level": 1,
+            "move": "Bide"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Protect"
+          },
+          {
+            "level": 8,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 15,
+            "move": "Take Down"
+          },
+          {
+            "level": 18,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 22,
+            "move": "Rapid Spin"
+          },
+          {
+            "level": 29,
+            "move": "Bide"
+          },
+          {
+            "level": 36,
+            "move": "Explosion"
+          },
+          {
+            "level": 43,
+            "move": "Spikes"
+          },
+          {
+            "level": 50,
+            "move": "Double Edge"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 10
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Forretress",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "stats": {
+        "hp": 75,
+        "atk": 90,
+        "def": 140,
+        "spa": 60,
+        "spd": 60,
+        "spe": 40
+      },
+      "bst": 465,
+      "abilities": [
+        "Sturdy"
+      ],
+      "category": "Bagworm Pok\u00e9mon",
+      "height": 1.2000000000000002,
+      "weight": 125.80000000000001,
+      "description": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Bug"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 2,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Spikes"
+          },
+          {
+            "level": 1,
+            "move": "Bide"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Protect"
+          },
+          {
+            "level": 1,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 8,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 15,
+            "move": "Take Down"
+          },
+          {
+            "level": 18,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 22,
+            "move": "Rapid Spin"
+          },
+          {
+            "level": 29,
+            "move": "Bide"
+          },
+          {
+            "level": 39,
+            "move": "Explosion"
+          },
+          {
+            "level": 49,
+            "move": "Spikes"
+          },
+          {
+            "level": 59,
+            "move": "Double Edge"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Pineco",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 206,
+      "name": "Dunsparce",
+      "types": [
+        "Normal"
+      ],
+      "stats": {
+        "hp": 100,
+        "atk": 70,
+        "def": 70,
+        "spa": 65,
+        "spd": 65,
+        "spe": 45
+      },
+      "bst": 415,
+      "abilities": [
+        "Serene Grace",
+        "Gluttony"
+      ],
+      "category": "Land Snake Pok\u00e9mon",
+      "height": 1.5,
+      "weight": 14,
+      "description": "When spotted, this POK\u00e9MON escapes backward by furi\u00ad ously boring into the ground with its tail.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 1,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Chesto Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Rage"
+          },
+          {
+            "level": 4,
+            "move": "Defense Curl"
+          },
+          {
+            "level": 11,
+            "move": "Yawn"
+          },
+          {
+            "level": 14,
+            "move": "Glare"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 21,
+            "move": "Spite"
+          },
+          {
+            "level": 24,
+            "move": "Pursuit"
+          },
+          {
+            "level": 31,
+            "move": "Screech"
+          },
+          {
+            "level": 34,
+            "move": "Take Down"
+          },
+          {
+            "level": 41,
+            "move": "Endeavor"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Linking Tunnel",
+          "method": "Cave",
+          "minLevel": 12,
+          "maxLevel": 12,
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "name": "Slugma",
+      "types": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 40,
+        "def": 40,
+        "spa": 70,
+        "spd": 40,
+        "spe": 20
+      },
+      "bst": 250,
+      "abilities": [
+        "Magma Armor",
+        "Flame Body"
+      ],
+      "category": "Lava Pok\u00e9mon",
+      "height": 0.7000000000000001,
+      "weight": 35,
+      "description": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Indeterminate"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 1,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Passho Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Lava Plume"
+          },
+          {
+            "level": 1,
+            "move": "Yawn"
+          },
+          {
+            "level": 1,
+            "move": "Smog"
+          },
+          {
+            "level": 1,
+            "move": "Yawn"
+          },
+          {
+            "level": 1,
+            "move": "Smog"
+          },
+          {
+            "level": 8,
+            "move": "Ember"
+          },
+          {
+            "level": 15,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 18,
+            "move": "Incinerate"
+          },
+          {
+            "level": 22,
+            "move": "Harden"
+          },
+          {
+            "level": 29,
+            "move": "Amnesia"
+          },
+          {
+            "level": 36,
+            "move": "Flamethrower"
+          },
+          {
+            "level": 43,
+            "move": "Rock Slide"
+          },
+          {
+            "level": 50,
+            "move": "Body Slam"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Dark City Entrance",
+          "method": "Cave",
+          "minLevel": 17,
+          "maxLevel": 17,
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "name": "Magcargo",
+      "types": [
+        "Fire",
+        "Rock"
+      ],
+      "stats": {
+        "hp": 60,
+        "atk": 50,
+        "def": 120,
+        "spa": 90,
+        "spd": 80,
+        "spe": 30
+      },
+      "bst": 430,
+      "abilities": [
+        "Magma Armor",
+        "Flame Body"
+      ],
+      "category": "Lava Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 55,
+      "description": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Indeterminate"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 2,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Passho Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Lava Plume"
+          },
+          {
+            "level": 1,
+            "move": "Yawn"
+          },
+          {
+            "level": 1,
+            "move": "Smog"
+          },
+          {
+            "level": 1,
+            "move": "Ember"
+          },
+          {
+            "level": 1,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 8,
+            "move": "Ember"
+          },
+          {
+            "level": 15,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 18,
+            "move": "Incinerate"
+          },
+          {
+            "level": 22,
+            "move": "Harden"
+          },
+          {
+            "level": 29,
+            "move": "Amnesia"
+          },
+          {
+            "level": 36,
+            "move": "Flamethrower"
+          },
+          {
+            "level": 48,
+            "move": "Rock Slide"
+          },
+          {
+            "level": 60,
+            "move": "Body Slam"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Slugma",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 235,
+      "name": "Smeargle",
+      "types": [
+        "Normal"
+      ],
+      "stats": {
+        "hp": 55,
+        "atk": 20,
+        "def": 35,
+        "spa": 20,
+        "spd": 45,
+        "spe": 75
+      },
+      "bst": 250,
+      "abilities": [
+        "Own Tempo",
+        "Technician"
+      ],
+      "category": "Painter Pok\u00e9mon",
+      "height": 1.2000000000000002,
+      "weight": 58,
+      "description": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Fast",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Oran Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Sketch"
+          },
+          {
+            "level": 11,
+            "move": "Sketch"
+          },
+          {
+            "level": 21,
+            "move": "Sketch"
+          },
+          {
+            "level": 31,
+            "move": "Sketch"
+          },
+          {
+            "level": 41,
+            "move": "Sketch"
+          },
+          {
+            "level": 51,
+            "move": "Sketch"
+          },
+          {
+            "level": 61,
+            "move": "Sketch"
+          },
+          {
+            "level": 71,
+            "move": "Sketch"
+          },
+          {
+            "level": 81,
+            "move": "Sketch"
+          },
+          {
+            "level": 91,
+            "move": "Sketch"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Color Ruins 1F",
+          "method": "Cave",
+          "minLevel": 16,
+          "maxLevel": 16,
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": 263,
+      "name": "Zigzagoon",
+      "types": [
+        "Normal"
+      ],
+      "stats": {
+        "hp": 38,
+        "atk": 30,
+        "def": 41,
+        "spa": 30,
+        "spd": 41,
+        "spe": 60
+      },
+      "bst": 240,
+      "abilities": [
+        "Pickup",
+        "Gluttony"
+      ],
+      "category": "Tiny Raccoon Pok\u00e9mon",
+      "height": 0.4,
+      "weight": 17.5,
+      "description": "ZIGZAGOON restlessly wanders everywhere at all times. This POK\u00e9MON does so because it is very curious. It becomes interested in anything that it happens to see.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Oran Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Covet"
+          },
+          {
+            "level": 1,
+            "move": "Rest"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 5,
+            "move": "Tail Whip"
+          },
+          {
+            "level": 9,
+            "move": "Headbutt"
+          },
+          {
+            "level": 13,
+            "move": "Sand Attack"
+          },
+          {
+            "level": 17,
+            "move": "Odor Sleuth"
+          },
+          {
+            "level": 21,
+            "move": "Mud Sport"
+          },
+          {
+            "level": 21,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 25,
+            "move": "Pin Missile"
+          },
+          {
+            "level": 25,
+            "move": "Recycle"
+          },
+          {
+            "level": 29,
+            "move": "Covet"
+          },
+          {
+            "level": 33,
+            "move": "Flail"
+          },
+          {
+            "level": 37,
+            "move": "Rest"
+          },
+          {
+            "level": 41,
+            "move": "Belly Drum"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Pulp Byroad",
+          "method": "Grass",
+          "minLevel": 10,
+          "maxLevel": 12,
+          "rate": 35
+        },
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "name": "Linoone",
+      "types": [
+        "Normal"
+      ],
+      "stats": {
+        "hp": 78,
+        "atk": 70,
+        "def": 61,
+        "spa": 50,
+        "spd": 61,
+        "spe": 100
+      },
+      "bst": 420,
+      "abilities": [
+        "Pickup",
+        "Gluttony"
+      ],
+      "category": "Rushing Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 32.5,
+      "description": "LINOONE always runs full speed and only in straight lines. If facing an obstacle, it makes a right-angle turn to evade it. This POK\u00e9MON is very challenged by gently curving roads.",
+      "catchRate": 90,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 2
+      },
+      "heldItems": {
+        "common": "Sitrus Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Covet"
+          },
+          {
+            "level": 1,
+            "move": "Rest"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 1,
+            "move": "Tail Whip"
+          },
+          {
+            "level": 1,
+            "move": "Headbutt"
+          },
+          {
+            "level": 5,
+            "move": "Tail Whip"
+          },
+          {
+            "level": 9,
+            "move": "Headbutt"
+          },
+          {
+            "level": 13,
+            "move": "Sand Attack"
+          },
+          {
+            "level": 17,
+            "move": "Odor Sleuth"
+          },
+          {
+            "level": 23,
+            "move": "Mud Sport"
+          },
+          {
+            "level": 23,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 29,
+            "move": "Fury Swipes"
+          },
+          {
+            "level": 29,
+            "move": "Recycle"
+          },
+          {
+            "level": 35,
+            "move": "Covet"
+          },
+          {
+            "level": 41,
+            "move": "Slash"
+          },
+          {
+            "level": 47,
+            "move": "Rest"
+          },
+          {
+            "level": 53,
+            "move": "Belly Drum"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Zigzagoon",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 270,
+      "name": "Lotad",
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 30,
+        "def": 30,
+        "spa": 40,
+        "spd": 50,
+        "spe": 30
+      },
+      "bst": 220,
+      "abilities": [
+        "Swift Swim",
+        "Harvest"
+      ],
+      "category": "Water Weed Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 2.6,
+      "description": "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 1,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Aspear Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Astonish"
+          },
+          {
+            "level": 3,
+            "move": "Growl"
+          },
+          {
+            "level": 7,
+            "move": "Absorb"
+          },
+          {
+            "level": 13,
+            "move": "Nature Power"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 21,
+            "move": "Mist"
+          },
+          {
+            "level": 31,
+            "move": "Rain Dance"
+          },
+          {
+            "level": 43,
+            "move": "Mega Drain"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 20
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "id": 271,
+      "name": "Lombre",
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 60,
+        "atk": 50,
+        "def": 50,
+        "spa": 60,
+        "spd": 70,
+        "spe": 50
+      },
+      "bst": 340,
+      "abilities": [
+        "Swift Swim",
+        "Harvest"
+      ],
+      "category": "Jolly Pok\u00e9mon",
+      "height": 1.2000000000000002,
+      "weight": 32.5,
+      "description": "It lives at the water\u2019s edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+      "catchRate": 120,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 2,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Aspear Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Astonish"
+          },
+          {
+            "level": 3,
+            "move": "Growl"
+          },
+          {
+            "level": 7,
+            "move": "Absorb"
+          },
+          {
+            "level": 13,
+            "move": "Nature Power"
+          },
+          {
+            "level": 19,
+            "move": "Fake Out"
+          },
+          {
+            "level": 19,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 25,
+            "move": "Fury Swipes"
+          },
+          {
+            "level": 31,
+            "move": "Water Sport"
+          },
+          {
+            "level": 37,
+            "move": "Thief"
+          },
+          {
+            "level": 43,
+            "move": "Uproar"
+          },
+          {
+            "level": 49,
+            "move": "Hydro Pump"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Lotad",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 272,
+      "name": "Ludicolo",
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 70,
+        "def": 70,
+        "spa": 90,
+        "spd": 100,
+        "spe": 70
+      },
+      "bst": 480,
+      "abilities": [
+        "Swift Swim",
+        "Harvest"
+      ],
+      "category": "Carefree Pok\u00e9mon",
+      "height": 1.5,
+      "weight": 55,
+      "description": "LUDICOLO begins dancing as soon as it hears cheerful, festive music. This POK\u00e9MON is said to appear when it hears the singing of children on hiking outings.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 3,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Aspear Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Astonish"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 1,
+            "move": "Absorb"
+          },
+          {
+            "level": 1,
+            "move": "Nature Power"
+          },
+          {
+            "level": 1,
+            "move": "Natural Gift"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Lombre",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 273,
+      "name": "Seedot",
+      "types": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 40,
+        "def": 50,
+        "spa": 30,
+        "spd": 30,
+        "spe": 30
+      },
+      "bst": 220,
+      "abilities": [
+        "Chlorophyll",
+        "Harvest"
+      ],
+      "category": "Acorn Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 4,
+      "description": "SEEDOT attaches itself to a tree branch using the top of its head. It sucks moisture from the tree while hanging off the branch. The more water it drinks, the glossier this POK\u00e9MON\u2019s body becomes.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 1,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Persim Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Bide"
+          },
+          {
+            "level": 3,
+            "move": "Harden"
+          },
+          {
+            "level": 7,
+            "move": "Growth"
+          },
+          {
+            "level": 13,
+            "move": "Nature Power"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 21,
+            "move": "Synthesis"
+          },
+          {
+            "level": 31,
+            "move": "Sunny Day"
+          },
+          {
+            "level": 43,
+            "move": "Explosion"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 20
+        },
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "name": "Nuzleaf",
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 70,
+        "def": 40,
+        "spa": 60,
+        "spd": 40,
+        "spe": 60
+      },
+      "bst": 340,
+      "abilities": [
+        "Chlorophyll",
+        "Harvest"
+      ],
+      "category": "Wily Pok\u00e9mon",
+      "height": 1,
+      "weight": 28,
+      "description": "NUZLEAF live in densely overgrown forests. They occasionally venture out of the forest to startle people. This POK\u00e9MON dislikes having its long nose pinched.",
+      "catchRate": 120,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Tanga Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 3,
+            "move": "Harden"
+          },
+          {
+            "level": 7,
+            "move": "Growth"
+          },
+          {
+            "level": 13,
+            "move": "Nature Power"
+          },
+          {
+            "level": 19,
+            "move": "Fake Out"
+          },
+          {
+            "level": 19,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 25,
+            "move": "Torment"
+          },
+          {
+            "level": 31,
+            "move": "Faint Attack"
+          },
+          {
+            "level": 37,
+            "move": "Razor Wind"
+          },
+          {
+            "level": 43,
+            "move": "Swagger"
+          },
+          {
+            "level": 49,
+            "move": "Extrasensory"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Seedot",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 275,
+      "name": "Shiftry",
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "stats": {
+        "hp": 90,
+        "atk": 100,
+        "def": 60,
+        "spa": 90,
+        "spd": 60,
+        "spe": 80
+      },
+      "bst": 480,
+      "abilities": [
+        "Chlorophyll",
+        "Harvest"
+      ],
+      "category": "Wicked Pok\u00e9mon",
+      "height": 1.3,
+      "weight": 59.6,
+      "description": "SHIFTRY is a mysterious POK\u00e9MON that is said to live atop towering trees dating back over a thousand years. It creates terrific windstorms with the fans it holds.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Plant"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 3,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Tanga Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 1,
+            "move": "Harden"
+          },
+          {
+            "level": 1,
+            "move": "Growth"
+          },
+          {
+            "level": 1,
+            "move": "Nature Power"
+          },
+          {
+            "level": 1,
+            "move": "Natural Gift"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Nuzleaf",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 283,
+      "name": "Surskit",
+      "types": [
+        "Bug",
+        "Water"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 30,
+        "def": 32,
+        "spa": 50,
+        "spd": 52,
+        "spe": 65
+      },
+      "bst": 269,
+      "abilities": [
+        "Swift Swim"
+      ],
+      "category": "Pond Skater Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 1.7000000000000002,
+      "description": "From the tips of its feet, SURSKIT secretes an oil that enables it to walk on water as if it were skating. This POK\u00e9MON feeds on microscopic organisms in ponds and lakes.",
+      "catchRate": 200,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Bug"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Bubble"
+          },
+          {
+            "level": 7,
+            "move": "Quick Attack"
+          },
+          {
+            "level": 13,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 19,
+            "move": "Water Sport"
+          },
+          {
+            "level": 19,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 25,
+            "move": "Bubble Beam"
+          },
+          {
+            "level": 31,
+            "move": "Agility"
+          },
+          {
+            "level": 37,
+            "move": "Mist"
+          },
+          {
+            "level": 37,
+            "move": "Haze"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 12,
+          "rate": 15
+        },
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 10
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 10
+        },
+        {
+          "map": "Zhaoun Path",
+          "method": "Grass",
+          "minLevel": 17,
+          "maxLevel": 18,
+          "rate": 100
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "name": "Masquerain",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 60,
+        "def": 62,
+        "spa": 100,
+        "spd": 82,
+        "spe": 80
+      },
+      "bst": 454,
+      "abilities": [
+        "Intimidate",
+        "Unnerve"
+      ],
+      "category": "Eyeball Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 3.6,
+      "description": "MASQUERAIN intimidates enemies with the eyelike patterns on its antennas. This POK\u00e9MON flaps its four wings to freely fly in any direction - even sideways and backwards - as if it were a helicopter.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Bug"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 1,
+        "spd": 1,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Charti Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Bubble"
+          },
+          {
+            "level": 1,
+            "move": "Quick Attack"
+          },
+          {
+            "level": 1,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 1,
+            "move": "Water Sport"
+          },
+          {
+            "level": 7,
+            "move": "Quick Attack"
+          },
+          {
+            "level": 13,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 19,
+            "move": "Water Sport"
+          },
+          {
+            "level": 19,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 26,
+            "move": "Gust"
+          },
+          {
+            "level": 33,
+            "move": "Scary Face"
+          },
+          {
+            "level": 40,
+            "move": "Stun Spore"
+          },
+          {
+            "level": 47,
+            "move": "Silver Wind"
+          },
+          {
+            "level": 53,
+            "move": "Whirlwind"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Surskit",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 291,
+      "name": "Ninjask",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": {
+        "hp": 61,
+        "atk": 90,
+        "def": 45,
+        "spa": 50,
+        "spd": 50,
+        "spe": 160
+      },
+      "bst": 456,
+      "abilities": [
+        "Speed Boost"
+      ],
+      "category": "Ninja Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 12,
+      "description": "NINJASK moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this POK\u00e9MON was long believed to be invisible.",
+      "catchRate": 120,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Bug"
+      ],
+      "growthRate": "Slow Then Very Fast",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 2
+      },
+      "heldItems": {
+        "common": "Charti Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Scratch"
+          },
+          {
+            "level": 1,
+            "move": "Harden"
+          },
+          {
+            "level": 1,
+            "move": "Leech Life"
+          },
+          {
+            "level": 1,
+            "move": "Sand Attack"
+          },
+          {
+            "level": 5,
+            "move": "Leech Life"
+          },
+          {
+            "level": 9,
+            "move": "Sand Attack"
+          },
+          {
+            "level": 14,
+            "move": "Fury Swipes"
+          },
+          {
+            "level": 19,
+            "move": "Mind Reader"
+          },
+          {
+            "level": 19,
+            "move": "Bug Bite"
+          },
+          {
+            "level": 20,
+            "move": "Double Team"
+          },
+          {
+            "level": 20,
+            "move": "Fury Cutter"
+          },
+          {
+            "level": 20,
+            "move": "Screech"
+          },
+          {
+            "level": 25,
+            "move": "Swords Dance"
+          },
+          {
+            "level": 31,
+            "move": "Slash"
+          },
+          {
+            "level": 38,
+            "move": "Agility"
+          },
+          {
+            "level": 45,
+            "move": "Baton Pass"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 303,
+      "name": "Mawile",
+      "types": [
+        "Steel",
+        "Fairy"
+      ],
+      "stats": {
+        "hp": 50,
+        "atk": 85,
+        "def": 85,
+        "spa": 55,
+        "spd": 55,
+        "spe": 50
+      },
+      "bst": 380,
+      "abilities": [
+        "Hyper Cutter",
+        "Unnerve"
+      ],
+      "category": "Deceiver Pok\u00e9mon",
+      "height": 0.6000000000000001,
+      "weight": 11.5,
+      "description": "MAWHILE\u2019s huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, MAWHILE chomps it with its gaping jaws.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Fairy"
+      ],
+      "growthRate": "Fast",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 1,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Astonish"
+          },
+          {
+            "level": 6,
+            "move": "Fake Tears"
+          },
+          {
+            "level": 11,
+            "move": "Bite"
+          },
+          {
+            "level": 16,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 21,
+            "move": "Vice Grip"
+          },
+          {
+            "level": 21,
+            "move": "Fling"
+          },
+          {
+            "level": 26,
+            "move": "Faint Attack"
+          },
+          {
+            "level": 31,
+            "move": "Baton Pass"
+          },
+          {
+            "level": 36,
+            "move": "Crunch"
+          },
+          {
+            "level": 41,
+            "move": "Iron Defense"
+          },
+          {
+            "level": 46,
+            "move": "Stockpile"
+          },
+          {
+            "level": 46,
+            "move": "Swallow"
+          },
+          {
+            "level": 46,
+            "move": "Spit Up"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Dark City Entrance",
+          "method": "Cave",
+          "minLevel": 18,
+          "maxLevel": 18,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "name": "Torkoal",
+      "types": [
+        "Fire"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 85,
+        "def": 140,
+        "spa": 85,
+        "spd": 70,
+        "spe": 20
+      },
+      "bst": 470,
+      "abilities": [
+        "White Smoke",
+        "Drought"
+      ],
+      "category": "Coal Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 80.4,
+      "description": "TORKOAL digs through mountains in search of coal. If it finds some, it fills hollow spaces on its shell with the coal and burns it. If it is attacked, this POK\u00e9MON spouts thick black smoke to beat a retreat.",
+      "catchRate": 90,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 2,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Passho Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Ember"
+          },
+          {
+            "level": 4,
+            "move": "Smog"
+          },
+          {
+            "level": 7,
+            "move": "Curse"
+          },
+          {
+            "level": 14,
+            "move": "Smokescreen"
+          },
+          {
+            "level": 17,
+            "move": "Fire Spin"
+          },
+          {
+            "level": 17,
+            "move": "Incinerate"
+          },
+          {
+            "level": 20,
+            "move": "Body Slam"
+          },
+          {
+            "level": 27,
+            "move": "Protect"
+          },
+          {
+            "level": 30,
+            "move": "Flamethrower"
+          },
+          {
+            "level": 33,
+            "move": "Iron Defense"
+          },
+          {
+            "level": 40,
+            "move": "Amnesia"
+          },
+          {
+            "level": 43,
+            "move": "Flail"
+          },
+          {
+            "level": 46,
+            "move": "Heat Wave"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 343,
+      "name": "Baltoy",
+      "types": [
+        "Ground",
+        "Psychic"
+      ],
+      "stats": {
+        "hp": 40,
+        "atk": 40,
+        "def": 55,
+        "spa": 40,
+        "spd": 70,
+        "spe": 55
+      },
+      "bst": 300,
+      "abilities": [
+        "Levitate"
+      ],
+      "category": "Clay Doll Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 21.5,
+      "description": "BALTOY moves while spinning around on its one foot. Primitive wall paintings depicting this POK\u00e9MON living among people were discovered in some ancient ruins.",
+      "catchRate": 255,
+      "genderRatio": "Genderless",
+      "eggGroups": [
+        "Mineral"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 1,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Colbur Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Confusion"
+          },
+          {
+            "level": 3,
+            "move": "Harden"
+          },
+          {
+            "level": 5,
+            "move": "Rapid Spin"
+          },
+          {
+            "level": 7,
+            "move": "Mud Slap"
+          },
+          {
+            "level": 11,
+            "move": "Psybeam"
+          },
+          {
+            "level": 15,
+            "move": "Rock Tomb"
+          },
+          {
+            "level": 19,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 19,
+            "move": "Recycle"
+          },
+          {
+            "level": 25,
+            "move": "Ancient Power"
+          },
+          {
+            "level": 31,
+            "move": "Sandstorm"
+          },
+          {
+            "level": 37,
+            "move": "Cosmic Power"
+          },
+          {
+            "level": 45,
+            "move": "Explosion"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Color Ruins 1F",
+          "method": "Cave",
+          "minLevel": 13,
+          "maxLevel": 14,
+          "rate": 30
+        },
+        {
+          "map": "Color Ruins B1F",
+          "method": "Cave",
+          "minLevel": 14,
+          "maxLevel": 15,
+          "rate": 30
+        },
+        {
+          "map": "Dark City Entrance",
+          "method": "Cave",
+          "minLevel": 16,
+          "maxLevel": 17,
+          "rate": 30
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "name": "Claydol",
+      "types": [
+        "Ground",
+        "Psychic"
+      ],
+      "stats": {
+        "hp": 60,
+        "atk": 70,
+        "def": 105,
+        "spa": 70,
+        "spd": 120,
+        "spe": 75
+      },
+      "bst": 500,
+      "abilities": [
+        "Levitate"
+      ],
+      "category": "Clay Doll Pok\u00e9mon",
+      "height": 1.5,
+      "weight": 108,
+      "description": "CLAYDOL are said to be dolls of mud made by primitive humans and brought to life by exposure to a mysterious ray. This POK\u00e9MON moves about while levitating.",
+      "catchRate": 90,
+      "genderRatio": "Genderless",
+      "eggGroups": [
+        "Mineral"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 2,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Colbur Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Teleport"
+          },
+          {
+            "level": 1,
+            "move": "Confusion"
+          },
+          {
+            "level": 1,
+            "move": "Harden"
+          },
+          {
+            "level": 1,
+            "move": "Rapid Spin"
+          },
+          {
+            "level": 3,
+            "move": "Harden"
+          },
+          {
+            "level": 5,
+            "move": "Rapid Spin"
+          },
+          {
+            "level": 7,
+            "move": "Mud Slap"
+          },
+          {
+            "level": 11,
+            "move": "Psybeam"
+          },
+          {
+            "level": 15,
+            "move": "Rock Tomb"
+          },
+          {
+            "level": 19,
+            "move": "Self Destruct"
+          },
+          {
+            "level": 19,
+            "move": "Recycle"
+          },
+          {
+            "level": 25,
+            "move": "Ancient Power"
+          },
+          {
+            "level": 31,
+            "move": "Sandstorm"
+          },
+          {
+            "level": 36,
+            "move": "Hyper Beam"
+          },
+          {
+            "level": 42,
+            "move": "Cosmic Power"
+          },
+          {
+            "level": 55,
+            "move": "Explosion"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Baltoy",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 358,
+      "name": "Chimecho",
+      "types": [
+        "Psychic"
+      ],
+      "stats": {
+        "hp": 75,
+        "atk": 50,
+        "def": 80,
+        "spa": 95,
+        "spd": 90,
+        "spe": 65
+      },
+      "bst": 455,
+      "abilities": [
+        "Levitate"
+      ],
+      "category": "Wind Chime Pok\u00e9mon",
+      "height": 0.6000000000000001,
+      "weight": 1,
+      "description": "CHIMECHO makes its cries echo inside its hollow body. When this POK\u00e9MON becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Indeterminate"
+      ],
+      "growthRate": "Fast",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 1,
+        "spd": 1,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Colbur Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Wrap"
+          },
+          {
+            "level": 6,
+            "move": "Growl"
+          },
+          {
+            "level": 9,
+            "move": "Astonish"
+          },
+          {
+            "level": 14,
+            "move": "Confusion"
+          },
+          {
+            "level": 17,
+            "move": "Take Down"
+          },
+          {
+            "level": 19,
+            "move": "Bestow"
+          },
+          {
+            "level": 22,
+            "move": "Uproar"
+          },
+          {
+            "level": 25,
+            "move": "Yawn"
+          },
+          {
+            "level": 30,
+            "move": "Psywave"
+          },
+          {
+            "level": 33,
+            "move": "Double Edge"
+          },
+          {
+            "level": 38,
+            "move": "Heal Bell"
+          },
+          {
+            "level": 41,
+            "move": "Safeguard"
+          },
+          {
+            "level": 46,
+            "move": "Psychic"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Chingling",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 359,
+      "name": "Absol",
+      "types": [
+        "Dark"
+      ],
+      "stats": {
+        "hp": 65,
+        "atk": 130,
+        "def": 60,
+        "spa": 75,
+        "spd": 60,
+        "spe": 75
+      },
+      "bst": 465,
+      "abilities": [
+        "Pressure",
+        "Unnerve"
+      ],
+      "category": "Disaster Pok\u00e9mon",
+      "height": 1.2000000000000002,
+      "weight": 47,
+      "description": "Every time ABSOL appears before people, it is followed by a disaster such as an earthquake or a tidal wave. As a result, it came to be known as the disaster POK\u00e9MON.",
+      "catchRate": 30,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Chople Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Scratch"
+          },
+          {
+            "level": 5,
+            "move": "Leer"
+          },
+          {
+            "level": 9,
+            "move": "Taunt"
+          },
+          {
+            "level": 13,
+            "move": "Quick Attack"
+          },
+          {
+            "level": 17,
+            "move": "Razor Wind"
+          },
+          {
+            "level": 21,
+            "move": "Bite"
+          },
+          {
+            "level": 21,
+            "move": "Fling"
+          },
+          {
+            "level": 26,
+            "move": "Swords Dance"
+          },
+          {
+            "level": 31,
+            "move": "Double Team"
+          },
+          {
+            "level": 36,
+            "move": "Slash"
+          },
+          {
+            "level": 41,
+            "move": "Future Sight"
+          },
+          {
+            "level": 46,
+            "move": "Perish Song"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 399,
+      "name": "Bidoof",
+      "types": [
+        "Normal"
+      ],
+      "stats": {
+        "hp": 59,
+        "atk": 45,
+        "def": 40,
+        "spa": 35,
+        "spd": 40,
+        "spe": 31
+      },
+      "bst": 250,
+      "abilities": [
+        "Simple",
+        "Gluttony"
+      ],
+      "category": "Plump Mouse Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 20,
+      "description": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 1,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Oran Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 5,
+            "move": "Defense Curl"
+          },
+          {
+            "level": 9,
+            "move": "Rollout"
+          },
+          {
+            "level": 13,
+            "move": "Headbutt"
+          },
+          {
+            "level": 15,
+            "move": "Covet"
+          },
+          {
+            "level": 17,
+            "move": "Recycle"
+          },
+          {
+            "level": 18,
+            "move": "Hyper Fang"
+          },
+          {
+            "level": 21,
+            "move": "Yawn"
+          },
+          {
+            "level": 25,
+            "move": "Crunch"
+          },
+          {
+            "level": 29,
+            "move": "Take Down"
+          },
+          {
+            "level": 33,
+            "move": "Super Fang"
+          },
+          {
+            "level": 37,
+            "move": "Swords Dance"
+          },
+          {
+            "level": 41,
+            "move": "Amnesia"
+          },
+          {
+            "level": 45,
+            "move": "Superpower"
+          },
+          {
+            "level": 49,
+            "move": "Curse"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 13,
+          "rate": 15
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 13,
+          "rate": 15
+        },
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 14,
+          "rate": 30
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "name": "Bibarel",
+      "types": [
+        "Normal",
+        "Water"
+      ],
+      "stats": {
+        "hp": 79,
+        "atk": 85,
+        "def": 60,
+        "spa": 55,
+        "spd": 60,
+        "spe": 71
+      },
+      "bst": 410,
+      "abilities": [
+        "Simple",
+        "Gluttony"
+      ],
+      "category": "Beaver Pok\u00e9mon",
+      "height": 1,
+      "weight": 31.5,
+      "description": "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+      "catchRate": 127,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Ground"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Sitrus Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Aqua Jet"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 5,
+            "move": "Defense Curl"
+          },
+          {
+            "level": 9,
+            "move": "Rollout"
+          },
+          {
+            "level": 13,
+            "move": "Headbutt"
+          },
+          {
+            "level": 15,
+            "move": "Water Gun"
+          },
+          {
+            "level": 17,
+            "move": "Recycle"
+          },
+          {
+            "level": 18,
+            "move": "Hyper Fang"
+          },
+          {
+            "level": 23,
+            "move": "Yawn"
+          },
+          {
+            "level": 28,
+            "move": "Crunch"
+          },
+          {
+            "level": 33,
+            "move": "Take Down"
+          },
+          {
+            "level": 38,
+            "move": "Super Fang"
+          },
+          {
+            "level": 43,
+            "move": "Swords Dance"
+          },
+          {
+            "level": 48,
+            "move": "Amnesia"
+          },
+          {
+            "level": 53,
+            "move": "Superpower"
+          },
+          {
+            "level": 58,
+            "move": "Curse"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Bidoof",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 420,
+      "name": "Cherubi",
+      "types": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 45,
+        "atk": 35,
+        "def": 45,
+        "spa": 62,
+        "spd": 53,
+        "spe": 35
+      },
+      "bst": 275,
+      "abilities": [
+        "Chlorophyll",
+        "Harvest"
+      ],
+      "category": "Cherry Pok\u00e9mon",
+      "height": 0.4,
+      "weight": 3.3000000000000003,
+      "description": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Fairy",
+        "Plant"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 1,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Oran Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Morning Sun"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 5,
+            "move": "Leafage"
+          },
+          {
+            "level": 10,
+            "move": "Growth"
+          },
+          {
+            "level": 13,
+            "move": "Helping Hand"
+          },
+          {
+            "level": 17,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 20,
+            "move": "Magical Leaf"
+          },
+          {
+            "level": 26,
+            "move": "Leech Seed"
+          },
+          {
+            "level": 30,
+            "move": "Take Down"
+          },
+          {
+            "level": 35,
+            "move": "Petal Blizzard"
+          },
+          {
+            "level": 40,
+            "move": "Worry Seed"
+          },
+          {
+            "level": 45,
+            "move": "Solar Beam"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Pulp Byroad",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 12,
+          "rate": 20
+        }
+      ]
+    },
+    {
+      "id": 421,
+      "name": "Cherrim",
+      "types": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 60,
+        "def": 70,
+        "spa": 87,
+        "spd": 78,
+        "spe": 85
+      },
+      "bst": 450,
+      "abilities": [
+        "Flower Gift",
+        "Harvest"
+      ],
+      "category": "Blossom Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 9.3,
+      "description": "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Fairy",
+        "Plant"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 2,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Sitrus Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Sunny Day"
+          },
+          {
+            "level": 1,
+            "move": "Morning Sun"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 5,
+            "move": "Leafage"
+          },
+          {
+            "level": 10,
+            "move": "Growth"
+          },
+          {
+            "level": 13,
+            "move": "Helping Hand"
+          },
+          {
+            "level": 17,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 20,
+            "move": "Magical Leaf"
+          },
+          {
+            "level": 28,
+            "move": "Leech Seed"
+          },
+          {
+            "level": 34,
+            "move": "Take Down"
+          },
+          {
+            "level": 41,
+            "move": "Petal Blizzard"
+          },
+          {
+            "level": 48,
+            "move": "Worry Seed"
+          },
+          {
+            "level": 55,
+            "move": "Solar Beam"
+          },
+          {
+            "level": 62,
+            "move": "Petal Dance"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Cherubi",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 430,
+      "name": "Honchkrow",
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "stats": {
+        "hp": 100,
+        "atk": 125,
+        "def": 52,
+        "spa": 105,
+        "spd": 52,
+        "spe": 71
+      },
+      "bst": 505,
+      "abilities": [
+        "Insomnia",
+        "Unnerve"
+      ],
+      "category": "Big Boss Pok\u00e9mon",
+      "height": 0.9,
+      "weight": 27.3,
+      "description": "Becoming active at night, it is known to swarm with numerous MURKROW in tow.",
+      "catchRate": 30,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Flying"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Pluck"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Murkrow",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 433,
+      "name": "Chingling",
+      "types": [
+        "Psychic"
+      ],
+      "stats": {
+        "hp": 45,
+        "atk": 30,
+        "def": 50,
+        "spa": 65,
+        "spd": 50,
+        "spe": 45
+      },
+      "bst": 285,
+      "abilities": [
+        "Levitate"
+      ],
+      "category": "Bell Pok\u00e9mon",
+      "height": 0.2,
+      "weight": 0.6000000000000001,
+      "description": "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops.",
+      "catchRate": 120,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "No Eggs"
+      ],
+      "growthRate": "Fast",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 1,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Chesto Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Heal Bell"
+          },
+          {
+            "level": 1,
+            "move": "Wrap"
+          },
+          {
+            "level": 4,
+            "move": "Growl"
+          },
+          {
+            "level": 7,
+            "move": "Astonish"
+          },
+          {
+            "level": 10,
+            "move": "Disable"
+          },
+          {
+            "level": 10,
+            "move": "Confusion"
+          },
+          {
+            "level": 13,
+            "move": "Yawn"
+          },
+          {
+            "level": 15,
+            "move": "Bestow"
+          },
+          {
+            "level": 17,
+            "move": "Entrainment"
+          },
+          {
+            "level": 20,
+            "move": "Uproar"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Oracle Hill",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 15,
+          "rate": 39
+        }
+      ]
+    },
+    {
+      "id": 453,
+      "name": "Croagunk",
+      "types": [
+        "Poison",
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 48,
+        "atk": 61,
+        "def": 40,
+        "spa": 61,
+        "spd": 40,
+        "spe": 50
+      },
+      "bst": 300,
+      "abilities": [
+        "Anticipation",
+        "Gluttony"
+      ],
+      "category": "Toxic Mouth Pok\u00e9mon",
+      "height": 0.7000000000000001,
+      "weight": 23,
+      "description": "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+      "catchRate": 140,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Payapa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Poison Sting"
+          },
+          {
+            "level": 1,
+            "move": "Mud Slap"
+          },
+          {
+            "level": 4,
+            "move": "Astonish"
+          },
+          {
+            "level": 8,
+            "move": "Taunt"
+          },
+          {
+            "level": 12,
+            "move": "Flatter"
+          },
+          {
+            "level": 16,
+            "move": "Revenge"
+          },
+          {
+            "level": 20,
+            "move": "Venoshock"
+          },
+          {
+            "level": 20,
+            "move": "Belch"
+          },
+          {
+            "level": 24,
+            "move": "Sucker Punch"
+          },
+          {
+            "level": 28,
+            "move": "Swagger"
+          },
+          {
+            "level": 32,
+            "move": "Poison Jab"
+          },
+          {
+            "level": 36,
+            "move": "Toxic"
+          },
+          {
+            "level": 40,
+            "move": "Nasty Plot"
+          },
+          {
+            "level": 44,
+            "move": "Sludge Bomb"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 14,
+          "rate": 14
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 14,
+          "rate": 14
+        },
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 15,
+          "rate": 15
+        },
+        {
+          "map": "Oracle Hill",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 10
+        }
+      ]
+    },
+    {
+      "id": 454,
+      "name": "Toxicroak",
+      "types": [
+        "Poison",
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 83,
+        "atk": 106,
+        "def": 65,
+        "spa": 86,
+        "spd": 65,
+        "spe": 85
+      },
+      "bst": 490,
+      "abilities": [
+        "Anticipation",
+        "Gluttony"
+      ],
+      "category": "Toxic Mouth Pok\u00e9mon",
+      "height": 1.3,
+      "weight": 44.400000000000006,
+      "description": "Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Payapa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Poison Sting"
+          },
+          {
+            "level": 1,
+            "move": "Mud Slap"
+          },
+          {
+            "level": 4,
+            "move": "Astonish"
+          },
+          {
+            "level": 8,
+            "move": "Taunt"
+          },
+          {
+            "level": 12,
+            "move": "Flatter"
+          },
+          {
+            "level": 16,
+            "move": "Revenge"
+          },
+          {
+            "level": 20,
+            "move": "Venoshock"
+          },
+          {
+            "level": 20,
+            "move": "Belch"
+          },
+          {
+            "level": 24,
+            "move": "Sucker Punch"
+          },
+          {
+            "level": 28,
+            "move": "Swagger"
+          },
+          {
+            "level": 32,
+            "move": "Poison Jab"
+          },
+          {
+            "level": 36,
+            "move": "Toxic"
+          },
+          {
+            "level": 42,
+            "move": "Nasty Plot"
+          },
+          {
+            "level": 48,
+            "move": "Sludge Bomb"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Croagunk",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 455,
+      "name": "Carnivine",
+      "types": [
+        "Grass"
+      ],
+      "stats": {
+        "hp": 74,
+        "atk": 100,
+        "def": 72,
+        "spa": 90,
+        "spd": 72,
+        "spe": 46
+      },
+      "bst": 454,
+      "abilities": [
+        "Levitate",
+        "Harvest"
+      ],
+      "category": "Bug Catcher Pok\u00e9mon",
+      "height": 1.4000000000000001,
+      "weight": 27,
+      "description": "It attracts prey with its sweet- smelling saliva, then chomps down. It takes a whole day to eat prey.",
+      "catchRate": 200,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Plant"
+      ],
+      "growthRate": "Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Occa Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Bind"
+          },
+          {
+            "level": 1,
+            "move": "Growth"
+          },
+          {
+            "level": 7,
+            "move": "Bite"
+          },
+          {
+            "level": 11,
+            "move": "Vine Whip"
+          },
+          {
+            "level": 15,
+            "move": "Sweet Scent"
+          },
+          {
+            "level": 18,
+            "move": "Thief"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 21,
+            "move": "Ingrain"
+          },
+          {
+            "level": 25,
+            "move": "Faint Attack"
+          },
+          {
+            "level": 28,
+            "move": "Leaf Tornado"
+          },
+          {
+            "level": 34,
+            "move": "Stockpile"
+          },
+          {
+            "level": 34,
+            "move": "Spit Up"
+          },
+          {
+            "level": 34,
+            "move": "Swallow"
+          },
+          {
+            "level": 41,
+            "move": "Crunch"
+          },
+          {
+            "level": 47,
+            "move": "Power Whip"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 5
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 5
+        },
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 5
+        },
+        {
+          "map": "Tiyu Forest",
+          "method": "Grass",
+          "minLevel": 15,
+          "maxLevel": 15,
+          "rate": 4
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "name": "Woobat",
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "stats": {
+        "hp": 65,
+        "atk": 45,
+        "def": 43,
+        "spa": 55,
+        "spd": 43,
+        "spe": 72
+      },
+      "bst": 323,
+      "abilities": [
+        "Unaware",
+        "Klutz"
+      ],
+      "category": "Bat Pok\u00e9mon",
+      "height": 0.4,
+      "weight": 2.1,
+      "description": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Flying"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Persim Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Calm Mind"
+          },
+          {
+            "level": 1,
+            "move": "Gust"
+          },
+          {
+            "level": 1,
+            "move": "Attract"
+          },
+          {
+            "level": 5,
+            "move": "Confusion"
+          },
+          {
+            "level": 10,
+            "move": "Endeavor"
+          },
+          {
+            "level": 15,
+            "move": "Air Cutter"
+          },
+          {
+            "level": 18,
+            "move": "Pluck"
+          },
+          {
+            "level": 20,
+            "move": "Imprison"
+          },
+          {
+            "level": 25,
+            "move": "Assurance"
+          },
+          {
+            "level": 30,
+            "move": "Amnesia"
+          },
+          {
+            "level": 35,
+            "move": "Air Slash"
+          },
+          {
+            "level": 40,
+            "move": "Psychic"
+          },
+          {
+            "level": 45,
+            "move": "Calm Mind"
+          },
+          {
+            "level": 50,
+            "move": "Future Sight"
+          },
+          {
+            "level": 55,
+            "move": "Simple Beam"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Linking Tunnel",
+          "method": "Cave",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 35
+        },
+        {
+          "map": "Dark City Entrance",
+          "method": "Cave",
+          "minLevel": 16,
+          "maxLevel": 18,
+          "rate": 14
+        }
+      ]
+    },
+    {
+      "id": 528,
+      "name": "Swoobat",
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "stats": {
+        "hp": 67,
+        "atk": 57,
+        "def": 55,
+        "spa": 77,
+        "spd": 55,
+        "spe": 114
+      },
+      "bst": 425,
+      "abilities": [
+        "Unaware",
+        "Klutz"
+      ],
+      "category": "Courting Pok\u00e9mon",
+      "height": 0.9,
+      "weight": 10.5,
+      "description": "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Flying"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 2
+      },
+      "heldItems": {
+        "common": "Persim Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Calm Mind"
+          },
+          {
+            "level": 1,
+            "move": "Gust"
+          },
+          {
+            "level": 1,
+            "move": "Attract"
+          },
+          {
+            "level": 5,
+            "move": "Confusion"
+          },
+          {
+            "level": 10,
+            "move": "Endeavor"
+          },
+          {
+            "level": 15,
+            "move": "Air Cutter"
+          },
+          {
+            "level": 18,
+            "move": "Pluck"
+          },
+          {
+            "level": 20,
+            "move": "Imprison"
+          },
+          {
+            "level": 25,
+            "move": "Assurance"
+          },
+          {
+            "level": 30,
+            "move": "Amnesia"
+          },
+          {
+            "level": 35,
+            "move": "Air Slash"
+          },
+          {
+            "level": 40,
+            "move": "Psychic"
+          },
+          {
+            "level": 45,
+            "move": "Calm Mind"
+          },
+          {
+            "level": 50,
+            "move": "Future Sight"
+          },
+          {
+            "level": 55,
+            "move": "Simple Beam"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Woobat",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 532,
+      "name": "Timburr",
+      "types": [
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 75,
+        "atk": 80,
+        "def": 55,
+        "spa": 25,
+        "spd": 35,
+        "spe": 35
+      },
+      "bst": 305,
+      "abilities": [
+        "Guts",
+        "Sheer Force"
+      ],
+      "category": "Muscular Pok\u00e9mon",
+      "height": 0.6000000000000001,
+      "weight": 12.5,
+      "description": "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+      "catchRate": 180,
+      "genderRatio": "75% male, 25% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Coba Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Scary Face"
+          },
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 4,
+            "move": "Low Kick"
+          },
+          {
+            "level": 8,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 12,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 16,
+            "move": "Bulk Up"
+          },
+          {
+            "level": 20,
+            "move": "Rock Slide"
+          },
+          {
+            "level": 20,
+            "move": "Fling"
+          },
+          {
+            "level": 24,
+            "move": "Slam"
+          },
+          {
+            "level": 28,
+            "move": "Scary Face"
+          },
+          {
+            "level": 32,
+            "move": "Dynamic Punch"
+          },
+          {
+            "level": 36,
+            "move": "Hammer Arm"
+          },
+          {
+            "level": 40,
+            "move": "Stone Edge"
+          },
+          {
+            "level": 44,
+            "move": "Superpower"
+          },
+          {
+            "level": 48,
+            "move": "Focus Punch"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Linking Tunnel",
+          "method": "Cave",
+          "minLevel": 11,
+          "maxLevel": 12,
+          "rate": 10
+        }
+      ]
+    },
+    {
+      "id": 533,
+      "name": "Gurdurr",
+      "types": [
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 85,
+        "atk": 105,
+        "def": 85,
+        "spa": 40,
+        "spd": 50,
+        "spe": 40
+      },
+      "bst": 405,
+      "abilities": [
+        "Guts",
+        "Sheer Force"
+      ],
+      "category": "Muscular Pok\u00e9mon",
+      "height": 1.2000000000000002,
+      "weight": 40,
+      "description": "This Pok\u00e9mon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+      "catchRate": 90,
+      "genderRatio": "75% male, 25% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Coba Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Scary Face"
+          },
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 4,
+            "move": "Low Kick"
+          },
+          {
+            "level": 8,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 12,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 16,
+            "move": "Bulk Up"
+          },
+          {
+            "level": 20,
+            "move": "Rock Slide"
+          },
+          {
+            "level": 20,
+            "move": "Fling"
+          },
+          {
+            "level": 24,
+            "move": "Slam"
+          },
+          {
+            "level": 30,
+            "move": "Scary Face"
+          },
+          {
+            "level": 36,
+            "move": "Dynamic Punch"
+          },
+          {
+            "level": 42,
+            "move": "Hammer Arm"
+          },
+          {
+            "level": 48,
+            "move": "Stone Edge"
+          },
+          {
+            "level": 54,
+            "move": "Superpower"
+          },
+          {
+            "level": 60,
+            "move": "Focus Punch"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Timburr",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 534,
+      "name": "Conkeldurr",
+      "types": [
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 105,
+        "atk": 140,
+        "def": 95,
+        "spa": 55,
+        "spd": 65,
+        "spe": 45
+      },
+      "bst": 505,
+      "abilities": [
+        "Guts",
+        "Sheer Force"
+      ],
+      "category": "Muscular Pok\u00e9mon",
+      "height": 1.4000000000000001,
+      "weight": 87,
+      "description": "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago.",
+      "catchRate": 45,
+      "genderRatio": "75% male, 25% female",
+      "eggGroups": [
+        "Humanshape"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 3,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Coba Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Scary Face"
+          },
+          {
+            "level": 1,
+            "move": "Pound"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 4,
+            "move": "Low Kick"
+          },
+          {
+            "level": 8,
+            "move": "Rock Throw"
+          },
+          {
+            "level": 12,
+            "move": "Focus Energy"
+          },
+          {
+            "level": 16,
+            "move": "Bulk Up"
+          },
+          {
+            "level": 20,
+            "move": "Rock Slide"
+          },
+          {
+            "level": 20,
+            "move": "Fling"
+          },
+          {
+            "level": 24,
+            "move": "Slam"
+          },
+          {
+            "level": 30,
+            "move": "Scary Face"
+          },
+          {
+            "level": 36,
+            "move": "Dynamic Punch"
+          },
+          {
+            "level": 42,
+            "move": "Hammer Arm"
+          },
+          {
+            "level": 48,
+            "move": "Stone Edge"
+          },
+          {
+            "level": 54,
+            "move": "Superpower"
+          },
+          {
+            "level": 60,
+            "move": "Focus Punch"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Gurdurr",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 535,
+      "name": "Tympole",
+      "types": [
+        "Water"
+      ],
+      "stats": {
+        "hp": 50,
+        "atk": 50,
+        "def": 40,
+        "spa": 50,
+        "spd": 40,
+        "spe": 64
+      },
+      "bst": 294,
+      "abilities": [
+        "Swift Swim",
+        "Hydration"
+      ],
+      "category": "Tadpole Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 4.5,
+      "description": "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
+      "catchRate": 255,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 1
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Uproar"
+          },
+          {
+            "level": 1,
+            "move": "Aqua Ring"
+          },
+          {
+            "level": 1,
+            "move": "Echoed Voice"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 1,
+            "move": "Echoed Voice"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 4,
+            "move": "Acid"
+          },
+          {
+            "level": 8,
+            "move": "Supersonic"
+          },
+          {
+            "level": 12,
+            "move": "Mud Shot"
+          },
+          {
+            "level": 16,
+            "move": "Round"
+          },
+          {
+            "level": 20,
+            "move": "Bubble Beam"
+          },
+          {
+            "level": 24,
+            "move": "Flail"
+          },
+          {
+            "level": 28,
+            "move": "Uproar"
+          },
+          {
+            "level": 32,
+            "move": "Aqua Ring"
+          },
+          {
+            "level": 36,
+            "move": "Hyper Voice"
+          },
+          {
+            "level": 40,
+            "move": "Muddy Water"
+          },
+          {
+            "level": 44,
+            "move": "Rain Dance"
+          },
+          {
+            "level": 48,
+            "move": "Hydro Pump"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 12,
+          "maxLevel": 12,
+          "rate": 10
+        },
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 20
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 20
+        },
+        {
+          "map": "Kimyang Road",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 10
+        }
+      ]
+    },
+    {
+      "id": 536,
+      "name": "Palpitoad",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 75,
+        "atk": 65,
+        "def": 55,
+        "spa": 65,
+        "spd": 55,
+        "spe": 69
+      },
+      "bst": 384,
+      "abilities": [
+        "Swift Swim",
+        "Hydration"
+      ],
+      "category": "Vibration Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 17,
+      "description": "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+      "catchRate": 120,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 2,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Uproar"
+          },
+          {
+            "level": 1,
+            "move": "Aqua Ring"
+          },
+          {
+            "level": 1,
+            "move": "Echoed Voice"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 4,
+            "move": "Acid"
+          },
+          {
+            "level": 8,
+            "move": "Supersonic"
+          },
+          {
+            "level": 12,
+            "move": "Mud Shot"
+          },
+          {
+            "level": 16,
+            "move": "Round"
+          },
+          {
+            "level": 20,
+            "move": "Bubble Beam"
+          },
+          {
+            "level": 24,
+            "move": "Flail"
+          },
+          {
+            "level": 30,
+            "move": "Uproar"
+          },
+          {
+            "level": 37,
+            "move": "Aqua Ring"
+          },
+          {
+            "level": 42,
+            "move": "Hyper Voice"
+          },
+          {
+            "level": 48,
+            "move": "Muddy Water"
+          },
+          {
+            "level": 54,
+            "move": "Rain Dance"
+          },
+          {
+            "level": 60,
+            "move": "Hydro Pump"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Tympole",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 537,
+      "name": "Seismitoad",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "stats": {
+        "hp": 105,
+        "atk": 95,
+        "def": 75,
+        "spa": 85,
+        "spd": 75,
+        "spe": 74
+      },
+      "bst": 509,
+      "abilities": [
+        "Swift Swim",
+        "Poison Touch"
+      ],
+      "category": "Vibration Pok\u00e9mon",
+      "height": 1.5,
+      "weight": 62,
+      "description": "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1"
+      ],
+      "growthRate": "Medium Slow",
+      "evYield": {
+        "hp": 3,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Rindo Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Drain Punch"
+          },
+          {
+            "level": 1,
+            "move": "Gastro Acid"
+          },
+          {
+            "level": 1,
+            "move": "Echoed Voice"
+          },
+          {
+            "level": 1,
+            "move": "Growl"
+          },
+          {
+            "level": 4,
+            "move": "Acid"
+          },
+          {
+            "level": 8,
+            "move": "Supersonic"
+          },
+          {
+            "level": 12,
+            "move": "Mud Shot"
+          },
+          {
+            "level": 16,
+            "move": "Round"
+          },
+          {
+            "level": 20,
+            "move": "Bubble Beam"
+          },
+          {
+            "level": 24,
+            "move": "Flail"
+          },
+          {
+            "level": 30,
+            "move": "Uproar"
+          },
+          {
+            "level": 39,
+            "move": "Aqua Ring"
+          },
+          {
+            "level": 46,
+            "move": "Hyper Voice"
+          },
+          {
+            "level": 54,
+            "move": "Muddy Water"
+          },
+          {
+            "level": 62,
+            "move": "Rain Dance"
+          },
+          {
+            "level": 70,
+            "move": "Hydro Pump"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Palpitoad",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 562,
+      "name": "Yamask",
+      "types": [
+        "Ghost"
+      ],
+      "stats": {
+        "hp": 38,
+        "atk": 30,
+        "def": 85,
+        "spa": 55,
+        "spd": 65,
+        "spe": 30
+      },
+      "bst": 303,
+      "abilities": [
+        "Mummy",
+        "Unnerve"
+      ],
+      "category": "Spirit Pok\u00e9mon",
+      "height": 0.5,
+      "weight": 1.5,
+      "description": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+      "catchRate": 190,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Mineral",
+        "Indeterminate"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 1,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Colbur Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Astonish"
+          },
+          {
+            "level": 1,
+            "move": "Protect"
+          },
+          {
+            "level": 4,
+            "move": "Haze"
+          },
+          {
+            "level": 8,
+            "move": "Night Shade"
+          },
+          {
+            "level": 12,
+            "move": "Disable"
+          },
+          {
+            "level": 16,
+            "move": "Will O Wisp"
+          },
+          {
+            "level": 20,
+            "move": "Crafty Shield"
+          },
+          {
+            "level": 20,
+            "move": "Bestow"
+          },
+          {
+            "level": 24,
+            "move": "Hex"
+          },
+          {
+            "level": 28,
+            "move": "Mean Look"
+          },
+          {
+            "level": 32,
+            "move": "Grudge"
+          },
+          {
+            "level": 36,
+            "move": "Curse"
+          },
+          {
+            "level": 40,
+            "move": "Shadow Ball"
+          },
+          {
+            "level": 44,
+            "move": "Dark Pulse"
+          },
+          {
+            "level": 52,
+            "move": "Destiny Bond"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Color Ruins B1F",
+          "method": "Cave",
+          "minLevel": 16,
+          "maxLevel": 16,
+          "rate": 10
+        },
+        {
+          "map": "Dark City Entrance",
+          "method": "Cave",
+          "minLevel": 18,
+          "maxLevel": 18,
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "name": "Cofagrigus",
+      "types": [
+        "Ghost"
+      ],
+      "stats": {
+        "hp": 58,
+        "atk": 50,
+        "def": 145,
+        "spa": 95,
+        "spd": 105,
+        "spe": 30
+      },
+      "bst": 483,
+      "abilities": [
+        "Mummy",
+        "Unnerve"
+      ],
+      "category": "Coffin Pok\u00e9mon",
+      "height": 1.7000000000000002,
+      "weight": 76.5,
+      "description": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+      "catchRate": 90,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Mineral",
+        "Indeterminate"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 2,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Colbur Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Shadow Claw"
+          },
+          {
+            "level": 1,
+            "move": "Scary Face"
+          },
+          {
+            "level": 1,
+            "move": "Astonish"
+          },
+          {
+            "level": 1,
+            "move": "Protect"
+          },
+          {
+            "level": 4,
+            "move": "Haze"
+          },
+          {
+            "level": 8,
+            "move": "Night Shade"
+          },
+          {
+            "level": 12,
+            "move": "Disable"
+          },
+          {
+            "level": 16,
+            "move": "Will O Wisp"
+          },
+          {
+            "level": 20,
+            "move": "Crafty Shield"
+          },
+          {
+            "level": 20,
+            "move": "Bestow"
+          },
+          {
+            "level": 24,
+            "move": "Hex"
+          },
+          {
+            "level": 28,
+            "move": "Mean Look"
+          },
+          {
+            "level": 32,
+            "move": "Grudge"
+          },
+          {
+            "level": 38,
+            "move": "Curse"
+          },
+          {
+            "level": 44,
+            "move": "Shadow Ball"
+          },
+          {
+            "level": 50,
+            "move": "Dark Pulse"
+          },
+          {
+            "level": 62,
+            "move": "Destiny Bond"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Yamask",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 618,
+      "name": "Stunfisk",
+      "types": [
+        "Ground",
+        "Electric"
+      ],
+      "stats": {
+        "hp": 109,
+        "atk": 66,
+        "def": 84,
+        "spa": 81,
+        "spd": 99,
+        "spe": 32
+      },
+      "bst": 471,
+      "abilities": [
+        "Static",
+        "Gluttony"
+      ],
+      "category": "Trap Pok\u00e9mon",
+      "height": 0.7000000000000001,
+      "weight": 11,
+      "description": "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+      "catchRate": 75,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Water1",
+        "Indeterminate"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 2,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Sitrus Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Mud Slap"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Water Gun"
+          },
+          {
+            "level": 1,
+            "move": "Thunder Shock"
+          },
+          {
+            "level": 5,
+            "move": "Endure"
+          },
+          {
+            "level": 10,
+            "move": "Mud Shot"
+          },
+          {
+            "level": 15,
+            "move": "Revenge"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 20,
+            "move": "Charge"
+          },
+          {
+            "level": 25,
+            "move": "Sucker Punch"
+          },
+          {
+            "level": 30,
+            "move": "Electric Terrain"
+          },
+          {
+            "level": 35,
+            "move": "Bounce"
+          },
+          {
+            "level": 40,
+            "move": "Muddy Water"
+          },
+          {
+            "level": 45,
+            "move": "Discharge"
+          },
+          {
+            "level": 50,
+            "move": "Flail"
+          },
+          {
+            "level": 55,
+            "move": "Fissure"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 5
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 5
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "name": "Pancham",
+      "types": [
+        "Fighting"
+      ],
+      "stats": {
+        "hp": 67,
+        "atk": 82,
+        "def": 62,
+        "spa": 46,
+        "spd": 48,
+        "spe": 43
+      },
+      "bst": 348,
+      "abilities": [
+        "Iron Fist",
+        "Mold Breaker"
+      ],
+      "category": "Playful Pok\u00e9mon",
+      "height": 0.6000000000000001,
+      "weight": 8,
+      "description": "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
+      "catchRate": 220,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Humanshape"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 1,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Coba Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 4,
+            "move": "Arm Thrust"
+          },
+          {
+            "level": 8,
+            "move": "Taunt"
+          },
+          {
+            "level": 12,
+            "move": "Circle Throw"
+          },
+          {
+            "level": 16,
+            "move": "Low Sweep"
+          },
+          {
+            "level": 19,
+            "move": "Work Up"
+          },
+          {
+            "level": 23,
+            "move": "Slash"
+          },
+          {
+            "level": 23,
+            "move": "Fling"
+          },
+          {
+            "level": 30,
+            "move": "Vital Throw"
+          },
+          {
+            "level": 33,
+            "move": "Crunch"
+          },
+          {
+            "level": 36,
+            "move": "Body Slam"
+          },
+          {
+            "level": 40,
+            "move": "Parting Shot"
+          },
+          {
+            "level": 44,
+            "move": "Entrainment"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Pulp Byroad",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 12,
+          "rate": 6
+        },
+        {
+          "map": "Shendown Path",
+          "method": "Grass",
+          "minLevel": 11,
+          "maxLevel": 11,
+          "rate": 15
+        },
+        {
+          "map": "Oracle Hill",
+          "method": "Grass",
+          "minLevel": 13,
+          "maxLevel": 13,
+          "rate": 14
+        }
+      ]
+    },
+    {
+      "id": 675,
+      "name": "Pangoro",
+      "types": [
+        "Fighting",
+        "Dark"
+      ],
+      "stats": {
+        "hp": 95,
+        "atk": 124,
+        "def": 78,
+        "spa": 69,
+        "spd": 71,
+        "spe": 58
+      },
+      "bst": 495,
+      "abilities": [
+        "Iron Fist",
+        "Unnerve"
+      ],
+      "category": "Daunting Pok\u00e9mon",
+      "height": 2.1,
+      "weight": 136,
+      "description": "Although it possesses a violent temperament, it won\u2019t put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.",
+      "catchRate": 65,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Humanshape"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 2,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Roseli Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Night Slash"
+          },
+          {
+            "level": 1,
+            "move": "Bullet Punch"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Leer"
+          },
+          {
+            "level": 4,
+            "move": "Arm Thrust"
+          },
+          {
+            "level": 8,
+            "move": "Taunt"
+          },
+          {
+            "level": 12,
+            "move": "Circle Throw"
+          },
+          {
+            "level": 16,
+            "move": "Low Sweep"
+          },
+          {
+            "level": 19,
+            "move": "Work Up"
+          },
+          {
+            "level": 23,
+            "move": "Slash"
+          },
+          {
+            "level": 23,
+            "move": "Fling"
+          },
+          {
+            "level": 32,
+            "move": "Vital Throw"
+          },
+          {
+            "level": 35,
+            "move": "Crunch"
+          },
+          {
+            "level": 40,
+            "move": "Body Slam"
+          },
+          {
+            "level": 46,
+            "move": "Parting Shot"
+          },
+          {
+            "level": 52,
+            "move": "Entrainment"
+          },
+          {
+            "level": 58,
+            "move": "Hammer Arm"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Pancham",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 702,
+      "name": "Dedenne",
+      "types": [
+        "Electric",
+        "Fairy"
+      ],
+      "stats": {
+        "hp": 67,
+        "atk": 58,
+        "def": 57,
+        "spa": 81,
+        "spd": 67,
+        "spe": 101
+      },
+      "bst": 431,
+      "abilities": [
+        "Cheek Pouch"
+      ],
+      "category": "Antenna Pok\u00e9mon",
+      "height": 0.2,
+      "weight": 2.2,
+      "description": "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
+      "catchRate": 180,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Ground",
+        "Fairy"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 0,
+        "spe": 2
+      },
+      "heldItems": {
+        "common": "Shuca Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Play Rough"
+          },
+          {
+            "level": 1,
+            "move": "Tail Whip"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 7,
+            "move": "Thunder Shock"
+          },
+          {
+            "level": 11,
+            "move": "Charge"
+          },
+          {
+            "level": 14,
+            "move": "Charm"
+          },
+          {
+            "level": 17,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 20,
+            "move": "Charge Beam"
+          },
+          {
+            "level": 23,
+            "move": "Nuzzle"
+          },
+          {
+            "level": 26,
+            "move": "Recycle"
+          },
+          {
+            "level": 30,
+            "move": "Volt Switch"
+          },
+          {
+            "level": 34,
+            "move": "Rest"
+          },
+          {
+            "level": 37,
+            "move": "Snore"
+          },
+          {
+            "level": 40,
+            "move": "Charge Beam"
+          },
+          {
+            "level": 43,
+            "move": "Entrainment"
+          },
+          {
+            "level": 46,
+            "move": "Play Rough"
+          },
+          {
+            "level": 49,
+            "move": "Thunder"
+          },
+          {
+            "level": 52,
+            "move": "Discharge"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Farmer Field",
+          "method": "Gift",
+          "minLevel": 15,
+          "maxLevel": 15,
+          "rate": 100
+        }
+      ]
+    },
+    {
+      "id": 704,
+      "name": "Goomy",
+      "types": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 45,
+        "atk": 50,
+        "def": 35,
+        "spa": 55,
+        "spd": 75,
+        "spe": 40
+      },
+      "bst": 300,
+      "abilities": [
+        "Sap Sipper",
+        "Gluttony"
+      ],
+      "category": "Soft Tissue Pok\u00e9mon",
+      "height": 0.30000000000000004,
+      "weight": 2.8000000000000003,
+      "description": "The weakest Dragon-type Pok\u00e9mon, it lives in damp, shady places, so its body doesn\u2019t dry out.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Dragon"
+      ],
+      "growthRate": "Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 1,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Roseli Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Absorb"
+          },
+          {
+            "level": 5,
+            "move": "Water Gun"
+          },
+          {
+            "level": 10,
+            "move": "Dragon Breath"
+          },
+          {
+            "level": 15,
+            "move": "Protect"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 20,
+            "move": "Flail"
+          },
+          {
+            "level": 20,
+            "move": "Belch"
+          },
+          {
+            "level": 25,
+            "move": "Water Pulse"
+          },
+          {
+            "level": 30,
+            "move": "Rain Dance"
+          },
+          {
+            "level": 35,
+            "move": "Dragon Pulse"
+          },
+          {
+            "level": 41,
+            "move": "Curse"
+          },
+          {
+            "level": 45,
+            "move": "Body Slam"
+          },
+          {
+            "level": 50,
+            "move": "Muddy Water"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": [
+        {
+          "map": "Wangyong Marsh",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 1
+        },
+        {
+          "map": "Wangyong Marsh 2",
+          "method": "Grass",
+          "minLevel": 14,
+          "maxLevel": 14,
+          "rate": 1
+        }
+      ]
+    },
+    {
+      "id": 705,
+      "name": "Sliggoo",
+      "types": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 68,
+        "atk": 75,
+        "def": 53,
+        "spa": 83,
+        "spd": 113,
+        "spe": 60
+      },
+      "bst": 452,
+      "abilities": [
+        "Sap Sipper",
+        "Gluttony"
+      ],
+      "category": "Soft Tissue Pok\u00e9mon",
+      "height": 0.8,
+      "weight": 17.5,
+      "description": "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can\u2019t see anything.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Dragon"
+      ],
+      "growthRate": "Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 2,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Roseli Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Acid Spray"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Absorb"
+          },
+          {
+            "level": 5,
+            "move": "Water Gun"
+          },
+          {
+            "level": 10,
+            "move": "Dragon Breath"
+          },
+          {
+            "level": 15,
+            "move": "Protect"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 20,
+            "move": "Flail"
+          },
+          {
+            "level": 20,
+            "move": "Belch"
+          },
+          {
+            "level": 25,
+            "move": "Water Pulse"
+          },
+          {
+            "level": 30,
+            "move": "Rain Dance"
+          },
+          {
+            "level": 35,
+            "move": "Dragon Pulse"
+          },
+          {
+            "level": 43,
+            "move": "Curse"
+          },
+          {
+            "level": 49,
+            "move": "Body Slam"
+          },
+          {
+            "level": 56,
+            "move": "Muddy Water"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Goomy",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 706,
+      "name": "Goodra",
+      "types": [
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 90,
+        "atk": 100,
+        "def": 70,
+        "spa": 110,
+        "spd": 150,
+        "spe": 80
+      },
+      "bst": 600,
+      "abilities": [
+        "Sap Sipper",
+        "Gluttony"
+      ],
+      "category": "Dragon Pok\u00e9mon",
+      "height": 2,
+      "weight": 150.5,
+      "description": "This very friendly Dragon-type Pok\u00e9mon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
+      "catchRate": 45,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Dragon"
+      ],
+      "growthRate": "Slow",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 0,
+        "spd": 3,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Roseli Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Aqua Tail"
+          },
+          {
+            "level": 1,
+            "move": "Acid Spray"
+          },
+          {
+            "level": 1,
+            "move": "Poison Tail"
+          },
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 1,
+            "move": "Absorb"
+          },
+          {
+            "level": 5,
+            "move": "Water Gun"
+          },
+          {
+            "level": 10,
+            "move": "Dragon Breath"
+          },
+          {
+            "level": 15,
+            "move": "Protect"
+          },
+          {
+            "level": 18,
+            "move": "Natural Gift"
+          },
+          {
+            "level": 20,
+            "move": "Flail"
+          },
+          {
+            "level": 20,
+            "move": "Belch"
+          },
+          {
+            "level": 25,
+            "move": "Water Pulse"
+          },
+          {
+            "level": 30,
+            "move": "Rain Dance"
+          },
+          {
+            "level": 35,
+            "move": "Dragon Pulse"
+          },
+          {
+            "level": 43,
+            "move": "Curse"
+          },
+          {
+            "level": 49,
+            "move": "Body Slam"
+          },
+          {
+            "level": 58,
+            "move": "Muddy Water"
+          },
+          {
+            "level": 67,
+            "move": "Power Whip"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": {
+          "from": "Sliggoo",
+          "method": "Unknown"
+        },
+        "evolvesTo": []
+      },
+      "locations": []
+    },
+    {
+      "id": 780,
+      "name": "Drampa",
+      "types": [
+        "Normal",
+        "Dragon"
+      ],
+      "stats": {
+        "hp": 78,
+        "atk": 60,
+        "def": 85,
+        "spa": 135,
+        "spd": 91,
+        "spe": 36
+      },
+      "bst": 485,
+      "abilities": [
+        "Berserk",
+        "Harvest"
+      ],
+      "category": "Placid Pok\u00e9mon",
+      "height": 3,
+      "weight": 185,
+      "description": "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+      "catchRate": 70,
+      "genderRatio": "50% male, 50% female",
+      "eggGroups": [
+        "Monster",
+        "Dragon"
+      ],
+      "growthRate": "Medium",
+      "evYield": {
+        "hp": 0,
+        "atk": 0,
+        "def": 0,
+        "spa": 2,
+        "spd": 0,
+        "spe": 0
+      },
+      "heldItems": {
+        "common": "Roseli Berry",
+        "rare": null
+      },
+      "learnset": {
+        "levelUp": [
+          {
+            "level": 1,
+            "move": "Tackle"
+          },
+          {
+            "level": 15,
+            "move": "Bestow"
+          }
+        ],
+        "tmhm": [],
+        "tutor": [],
+        "egg": []
+      },
+      "evolution": {
+        "evolvesFrom": null,
+        "evolvesTo": []
+      },
+      "locations": []
+    }
+  ],
+  "moves": {}
+}
