@@ -17,14 +17,11 @@ export interface ProgressionStep {
 }
 
 export const GAME_PROGRESSION: ProgressionStep[] = [
-  // -- Chapter 1: The Berry Farmer --
-  { type: 'chapter', label: 'Chapter 1: The Berry Farmer', description: 'Pulp harvests berries and dreams of a better life in Honzhu City.' },
+  // ── Act I: Meet the Oracle ──
+  { type: 'chapter', label: 'Act I: Meet the Oracle', description: 'Pulp sets out from his berry farm to find the Oracle and learn the legend of the Relic Crown.' },
   { type: 'starter', label: 'Pulp receives Dedenne', description: 'Start your journey with Dedenne, level 15.' },
   { type: 'landmark', label: 'Farmer Field', description: "Pulp's berry farm where the journey begins." },
   { type: 'route', label: 'Pulp Byroad', routeKeys: ['Pulp Byroad'], description: 'The broken-down truck blocks the road north. Pulp must walk east to Cho Village on foot.' },
-
-  // -- Chapter 2: Cho Village & the Oracle --
-  { type: 'chapter', label: 'Chapter 2: Cho Village & the Oracle', description: 'Travel east to Cho Village and seek the Oracle for guidance.' },
   { type: 'route', label: 'Shendown Path', routeKeys: ['Shendown Path'], description: 'The road east from Pulp Byroad to Cho Village.' },
   { type: 'trainer', label: 'Ling', trainerName: 'Ling', description: '"Our eyes met! Looks like we\'ve got ourselves a battle!"' },
   { type: 'trainer', label: 'Bai', trainerName: 'Bai', description: '"Taking the long way to Cho today? You must be pretty confident!"' },
@@ -47,21 +44,15 @@ export const GAME_PROGRESSION: ProgressionStep[] = [
   { type: 'route', label: 'Oracle Hill', routeKeys: ['Oracle Hill'], description: 'The Oracle sends Pulp on a quest for the Relic Crown hidden in the Color Ruins.' },
   { type: 'trainer', label: 'Xiu', trainerName: 'Xiu', description: '"Check out my adorable little Pokemon friends!"' },
 
-  // -- Chapter 3: Kimyang Road & Yellow Ruins --
-  { type: 'chapter', label: 'Chapter 3: Kimyang Road & Yellow Ruins', description: 'Explore Kimyang Road and the first Color Ruins.' },
+  // ── Act II: The Color Ruins ──
+  { type: 'chapter', label: 'Act II: The Color Ruins', description: 'Explore the four ancient Color Ruins and discover an underground civilization.' },
   { type: 'route', label: 'Kimyang Road', routeKeys: ['Kimyang Road'], description: 'East of Wangyong Marsh, leading to the Yellow Ruins entrance.' },
   { type: 'trainer', label: 'Gen', trainerName: 'Gen', description: '"Trainer detected! Spinarak, let\'s go!"' },
   { type: 'trainer', label: 'Nian', trainerName: 'Nian', description: '"A battle, huh? Make it quick!"' },
   { type: 'trainer', label: 'Zeliang', trainerName: 'Zeliang', description: '"Don\'t scare the bugs away! I\'m tracking rare specimens!"' },
   { type: 'trainer', label: 'Minqiang', trainerName: 'Minqiang', description: '"I\'m gathering herbs to make medicine for my grandmother."' },
   { type: 'route', label: 'Color Ruins (Yellow)', routeKeys: ['Color Ruins Yellow 1F', 'Color Ruins Yellow B1F'], description: 'The first Color Ruins, accessible from Kimyang Road.' },
-
-  // -- Chapter 4: Cho Village Revisited --
-  { type: 'chapter', label: 'Chapter 4: Cho Village Revisited', description: 'Return to Cho Village where Log has a surprise.' },
   { type: 'rival', label: 'Log - Cho Village Rematch', rivalLocation: '2nd', description: 'Log heals your party and challenges you to a rematch before building a bridge to the Red Ruins.' },
-
-  // -- Chapter 5: Through the Forest --
-  { type: 'chapter', label: 'Chapter 5: Through the Forest', description: 'Explore north through the Linking Tunnel to Tiyu Forest and more Color Ruins.' },
   { type: 'route', label: 'Linking Tunnel', routeKeys: ['Linking Tunnel'], description: 'A tunnel north of Pulp Byroad connecting to Tiyu Forest.' },
   { type: 'route', label: 'Tiyu Forest', routeKeys: ['Tiyu Forest'], description: 'A dense forest with bug catchers. Contains the entrance to Color Ruins (Green).' },
   { type: 'trainer', label: 'Shi', trainerName: 'Shi', description: '"I know all about Bug-type Pokemon. People call me the Bug-type guru!"' },
@@ -71,9 +62,6 @@ export const GAME_PROGRESSION: ProgressionStep[] = [
   { type: 'trainer', label: 'Peipei', trainerName: 'Peipei', description: '"My back is killing me from collecting firewood. Battle me!"' },
   { type: 'route', label: 'Color Ruins (Green)', routeKeys: ['Color Ruins Green 1F'], description: 'Second Color Ruins, accessible from Tiyu Forest.' },
   { type: 'route', label: 'Color Ruins (Red)', routeKeys: ['Color Ruins Red 1F', 'Color Ruins Red B1F'], description: 'Third Color Ruins, now accessible thanks to the bridge Log built.' },
-
-  // -- Chapter 6: Zhaoun Path & Blue Ruins --
-  { type: 'chapter', label: 'Chapter 6: Zhaoun Path & Blue Ruins', description: 'Head south through Linking Tunnel to Zhaoun Path and the final Color Ruins.' },
   { type: 'route', label: 'Zhaoun Path', routeKeys: ['Zhaoun Path'], description: 'South of Linking Tunnel. Wild Pokemon jump out from the puddles.' },
   { type: 'trainer', label: 'Pengfei', trainerName: 'Pengfei', description: '"I can\'t find any wild Pokemon... That really bugs me!"' },
   { type: 'trainer', label: 'Yao', trainerName: 'Yao', description: '"Hey, stop there! I\'m going to beat you!"' },
@@ -82,8 +70,8 @@ export const GAME_PROGRESSION: ProgressionStep[] = [
   { type: 'trainer', label: 'Haoran', trainerName: 'Haoran', description: '"I\'ve got a line in this puddle and something\'s biting! ...False alarm."' },
   { type: 'route', label: 'Color Ruins (Blue)', routeKeys: ['Color Ruins Blue 1F'], description: 'The final Color Ruins. Fall through the floor to discover Dark City!' },
 
-  // -- Chapter 7: Dark City --
-  { type: 'chapter', label: 'Chapter 7: Dark City', description: 'Discover an underground civilization and prove your worth in the Dark Tourney.' },
+  // ── Act III: The Relic Crown ──
+  { type: 'chapter', label: 'Act III: The Relic Crown', description: 'Win the Dark Tourney and conquer the Dark Ruins to claim the legendary Relic Crown.' },
   { type: 'route', label: 'Dark City Entrance', routeKeys: ['Dark City Entrance'], description: 'Meet Arum, who explains the history of this underground city.' },
   { type: 'trainer', label: 'Lu', trainerName: 'Lu', description: '"Spirits, be gone!"' },
   { type: 'trainer', label: 'Rue', trainerName: 'Rue', description: '"Yes... I can see it! My victory over you!"' },
@@ -94,16 +82,13 @@ export const GAME_PROGRESSION: ProgressionStep[] = [
   { type: 'trainer', label: 'Lingfeng', trainerName: 'Lingfeng', description: '"I\'ve trained my body and mind for this moment."' },
   { type: 'trainer', label: 'Yuxuan', trainerName: 'Yuxuan', description: '"The spirits whisper your defeat to me..."' },
   { type: 'boss', label: 'Wolfsbane', bossName: 'Wolfsbane', description: "Arum's son and 3-time defending champion of the Dark Tourney." },
-
-  // -- Chapter 8: The Dark Ruins --
-  { type: 'chapter', label: 'Chapter 8: The Dark Ruins', description: "Solve Arum's four puzzles to earn the Relic Crown." },
   { type: 'landmark', label: 'Dark Ruins', description: 'Four puzzle rooms created by Arum.' },
   { type: 'trainer', label: 'Huizhong', trainerName: 'Huizhong', description: '"My Diglett and I have dug through every tunnel in Dark City!"' },
   { type: 'trainer', label: 'Baozhai', trainerName: 'Baozhai', description: '"My bells will ring in victory!"' },
   { type: 'boss', label: 'Arum', bossName: 'Arum', bossLocation: 'Dark Ruins Final Room', description: 'Face Arum after solving all four puzzles to claim the Relic Crown.' },
 
-  // -- Chapter 9: The Journey to Honzhu --
-  { type: 'chapter', label: 'Chapter 9: The Journey to Honzhu', description: 'With the Relic Crown in hand, Pulp can finally afford to move to Honzhu City.' },
+  // ── Act IV: Onward to Honzhu ──
+  { type: 'chapter', label: 'Act IV: Onward to Honzhu', description: 'With the Relic Crown in hand, Pulp can finally afford to move to Honzhu City.' },
   { type: 'landmark', label: 'Xilong Walk', description: 'A route north of Farmer Field. Arum bids farewell here after bringing Pulp back to the surface.' },
   { type: 'trainer', label: 'Xiao', trainerName: 'Xiao', description: '"Huh? Where did you come from? Whatever, let me test you!"' },
   { type: 'trainer', label: 'Hai', trainerName: 'Hai', description: '"I salt and dry the fish I catch out here. Lasts all winter."' },
